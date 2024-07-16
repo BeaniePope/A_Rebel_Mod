@@ -5,11 +5,11 @@ class CfgPatches
         author= "HC Aux Team"
         requiredAddos[]=
         {
-
+			"JMSLLTE_scum"
         };
         weapons[]=
         {
-
+			"HC_Commando_Helmet_Endor"
         };
         units[]=
         {
@@ -45,7 +45,18 @@ class CfgEditorSubcategories
 };
 class CfgWeapons
 {
-
+	//helmets
+	class JMSLLTE_Commando_endor_helmet;
+	class HC_Commando_Helmet_Endor: JMSLLTE_Commando_endor_helmet
+	{
+		author = "Queen";
+		scope = 2;
+		displayName = "[HC] Commando Helmet (Endor)";
+		hiddenSelectionsTextures[]=
+		{
+			"hc_core\data\helmets\HC_commando_helmet_co.paa"
+		};
+	};
 };
 class CfgVehicles
 {
