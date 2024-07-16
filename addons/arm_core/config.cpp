@@ -1,6 +1,6 @@
 class CfgPatches
 {
-    class ARMCore
+    class arm_core
     {
         author= "ARM Mod Team"
         requiredAddos[]=
