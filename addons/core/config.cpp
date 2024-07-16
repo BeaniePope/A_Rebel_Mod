@@ -2,7 +2,7 @@ class CfgPatches
 {
     class ARMCore
     {
-        author= "ARM mod team"
+        author= "ARM Mod Team"
         requiredAddos[]=
         {
 
@@ -21,7 +21,7 @@ class CfgFactionClasses
 {
 	class ARM_Faction
 	{
-		displayName="Rebel alliance";
+		displayName="Rebel Alliance";
 	};
 };
 class CfgEditorCategories
@@ -33,17 +33,9 @@ class CfgEditorCategories
 };
 class CfgEditorSubcategories
 {
-	class ARM_pilot
-	{
-		displayName="Pilots";
-	};
 	class ARM_inf
 	{
 		displayName="Infantry";
-	};
-	class ARM_Clone_Aviator
-	{
-		displayname="Flybois"
 	};
 	class ARM_aircraft
 	{
@@ -60,11 +52,6 @@ class CfgEditorSubcategories
 	class ARM_Resupply
 	{
 		displayName="Resupply";
-		priority=1;
-	};
-	class ARM_Turret
-	{
-		displayName="Turret";
 		priority=1;
 	};
 };
