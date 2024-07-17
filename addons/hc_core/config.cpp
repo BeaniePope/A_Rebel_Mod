@@ -45,7 +45,7 @@ class CfgEditorSubcategories
 };
 class CfgWeapons
 {
-	//helmets
+	//Helmets
 	class JMSLLTE_Commando_endor_helmet;
 	class HC_Commando_Helmet_Endor: JMSLLTE_Commando_endor_helmet
 	{
@@ -54,13 +54,52 @@ class CfgWeapons
 		displayName = "[HC] Commando Helmet (Endor)";
 		hiddenSelectionsTextures[]=
 		{
-			"hc_core\data\helmets\HC_commando_helmet_co.paa"
+			"hc_core\data\helmets\HC_commando_helmet_Endor_co.paa"
+		};
+	};
+	class HC_Commando_Helmet_Cloud: HC_Commando_Helmet_Endor
+	{
+		displayName = "[HC] Commando Helmet (Cloud)";
+		hiddenSelectionsTextures[]=
+		{
+			"hc_core\data\helmets\HC_commando_helmet_Cloud_co.paa"
+		};
+	};
+	class HC_Commando_Helmet_Desert: HC_Commando_Helmet_Endor
+	{
+		displayName = "[HC] Commando Helmet (Green)";
+		hiddenSelectionsTextures[]=
+		{
+			"hc_core\data\helmets\HC_commando_helmet_Desert_co.paa"
+		};
+	};
+	class HC_Commando_Helmet_Black: HC_Commando_Helmet_Endor
+	{
+		displayName = "[HC] Commando Helmet (Black)";
+		hiddenSelectionsTextures[]=
+		{
+			"hc_core\data\helmets\HC_commando_helmet_Black_co.paa"
 		};
 	};
 
 };
 class CfgVehicles
 {
+	//Backpacks
+	class JMSLLTE_back_rebpack_v1_black;
+	class HC_Rebel_Backpack_Black: JMSLLTE_back_rebpack_v1_black
+	{
+		author = "Queen";
+		scope = 2;
+		hiddenSelectionsTextures[] = 
+		{
+			"\hc_core\data\backpacks\HC_Rebel_Backpack_Black_co.paa"
+		};
+		hiddenSelectionsMaterials[] =
+		{
+			"\hc_core\data\HC_Rebel_Backpack_Black.rvmat"
+		};
+	};
 	//Objects
 	class JLTS_Ammobox_weapons_GAR;
 	class HC_Ammobox_REB: JLTS_Ammobox_weapons_GAR
