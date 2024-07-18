@@ -231,20 +231,25 @@ class CfgWeapons
 class CfgVehicles
 {
 	//Backpacks
-	class JMSLLTE_back_rebpack_v1_black;
-	class HC_Rebel_Backpack_Black: JMSLLTE_back_rebpack_v1_black
-	{
-		author = "Queen";
-		scope = 2;
-		hiddenSelectionsTextures[] = 
-		{
-			"\hc_core\data\backpacks\HC_Rebel_Backpack_Black_co.paa"
-		};
-		hiddenSelectionsMaterials[] =
-		{
-			"\hc_core\data\HC_Rebel_Backpack_Black.rvmat"
-		};
-	};
+	// class JMSLLTE_back_rebpack_v1_black;
+	// class HC_Rebel_Backpack_Black: JMSLLTE_back_rebpack_v1_black
+	// {
+	// 	author = "Queen";
+	// 	scope = 2;
+	// 	tf_range = 40000;
+    // 	tf_encryptionCode = "tf_west_radio_code";
+    // 	tf_dialog = "hc_lr_radio_dialog";
+    // 	tf_subtype = "airborne";
+    // 	tf_dialogUpdate = "[""CH%1""] call TFAR_fnc_updateLRDialogToChannel;";
+	// 	hiddenSelectionsTextures[] = 
+	// 	{
+	// 		"\hc_core\data\backpacks\HC_Rebel_Backpack_Black_co.paa"
+	// 	};
+	// 	hiddenSelectionsMaterials[] =
+	// 	{
+	// 		"\hc_core\data\HC_Rebel_Backpack_Black.rvmat"
+	// 	};
+	// };
 	//Uniforms
 	
 	//Objects
