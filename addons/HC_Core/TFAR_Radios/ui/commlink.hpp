@@ -39,75 +39,93 @@ class commlink_radio_dialog
     };
     class channel_01: HiddenButton
     {
+        tooltip = "1";
         idc = 1600;
         x = 0.455937 * safezoneW + safezoneX;
         y = 0.3308 * safezoneH + safezoneY;
         w = 0.0195833 * safezoneW;
         h = 0.0376 * safezoneH;
+        action = "[TF_sw_dialog_radio, 0] call TFAR_fnc_setSwChannel;[""CH%1""] call TFAR_fnc_updateSWDialogToChannel;[TF_sw_dialog_radio, true] call TFAR_fnc_showRadioInfo;";
     };
     class channel_02: HiddenButton
     {
+        tooltip = "2";
         idc = 1601;
         x = 0.495104 * safezoneW + safezoneX;
         y = 0.3308 * safezoneH + safezoneY;
         w = 0.0195833 * safezoneW;
         h = 0.0376 * safezoneH;
+        action = "[TF_sw_dialog_radio, 1] call TFAR_fnc_setSwChannel;[""CH%1""] call TFAR_fnc_updateSWDialogToChannel;[TF_sw_dialog_radio, true] call TFAR_fnc_showRadioInfo;";
     };
     class channel_03: HiddenButton
     {
+        tooltip = "3";
         idc = 1602;
         x = 0.534271 * safezoneW + safezoneX;
         y = 0.3308 * safezoneH + safezoneY;
         w = 0.0195833 * safezoneW;
         h = 0.0376 * safezoneH;
+        action = "[TF_sw_dialog_radio, 2] call TFAR_fnc_setSwChannel;[""CH%1""] call TFAR_fnc_updateSWDialogToChannel;[TF_sw_dialog_radio, true] call TFAR_fnc_showRadioInfo;";
     };
     class channel_04: HiddenButton
     {
+        tooltip = "4";
         idc = 1603;
         x = 0.455937 * safezoneW + safezoneX;
         y = 0.3872 * safezoneH + safezoneY;
         w = 0.0195833 * safezoneW;
         h = 0.0376 * safezoneH;
+        action = "[TF_sw_dialog_radio, 3] call TFAR_fnc_setSwChannel;[""CH%1""] call TFAR_fnc_updateSWDialogToChannel;[TF_sw_dialog_radio, true] call TFAR_fnc_showRadioInfo;";
     };
     class channel_05: HiddenButton
     {
+        tooltip = "5";
         idc = 1614;
         x = 0.495104 * safezoneW + safezoneX;
         y = 0.3872 * safezoneH + safezoneY;
         w = 0.0195833 * safezoneW;
         h = 0.0376 * safezoneH;
+        action = "[TF_sw_dialog_radio, 4] call TFAR_fnc_setSwChannel;[""CH%1""] call TFAR_fnc_updateSWDialogToChannel;[TF_sw_dialog_radio, true] call TFAR_fnc_showRadioInfo;";
     };
     class channel_06: HiddenButton
     {
+        tooltip = "6";
         idc = 1604;
         x = 0.534271 * safezoneW + safezoneX;
         y = 0.3872 * safezoneH + safezoneY;
         w = 0.0195833 * safezoneW;
         h = 0.0376 * safezoneH;
+        action = "[TF_sw_dialog_radio, 5] call TFAR_fnc_setSwChannel;[""CH%1""] call TFAR_fnc_updateSWDialogToChannel;[TF_sw_dialog_radio, true] call TFAR_fnc_showRadioInfo;";
     };
     class channel_07: HiddenButton
     {
+        tooltip = "7";
         idc = 1605;
         x = 0.455937 * safezoneW + safezoneX;
         y = 0.453 * safezoneH + safezoneY;
         w = 0.0195833 * safezoneW;
         h = 0.0376 * safezoneH;
+        action = "[TF_sw_dialog_radio, 6] call TFAR_fnc_setSwChannel;[""CH%1""] call TFAR_fnc_updateSWDialogToChannel;[TF_sw_dialog_radio, true] call TFAR_fnc_showRadioInfo;";
     };
     class channel_08: HiddenButton
     {
+        tooltip = "8";
         idc = 1615;
         x = 0.495104 * safezoneW + safezoneX;
         y = 0.453 * safezoneH + safezoneY;
         w = 0.0195833 * safezoneW;
         h = 0.0376 * safezoneH;
+        action = "[TF_sw_dialog_radio, 7] call TFAR_fnc_setSwChannel;[""CH%1""] call TFAR_fnc_updateSWDialogToChannel;[TF_sw_dialog_radio, true] call TFAR_fnc_showRadioInfo;";
     };
     class channel_09: HiddenButton
     {
+        tooltip = "9";
         idc = 1616;
         x = 0.534271 * safezoneW + safezoneX;
         y = 0.453 * safezoneH + safezoneY;
         w = 0.0195833 * safezoneW;
         h = 0.0376 * safezoneH;
+        action = "[TF_sw_dialog_radio, 8] call TFAR_fnc_setSwChannel;[""CH%1""] call TFAR_fnc_updateSWDialogToChannel;[TF_sw_dialog_radio, true] call TFAR_fnc_showRadioInfo;";
     };
 
     class enter: HiddenButton

@@ -1,6 +1,6 @@
 class CfgPatches
 {
-    class HC_Core
+    class HC_Weapons
     {
         author= "HC Aux Team"
         requiredAddos[]=
