@@ -162,6 +162,7 @@ class CfgVehicles
 
 
 	//Units
+	class B_Soldier_base_F;
 	class HC_Unit_Rebel_Trooper_Base: B_Soldier_base_F
 	{
 		author = "Queen";
