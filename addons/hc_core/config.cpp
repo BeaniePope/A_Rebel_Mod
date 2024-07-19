@@ -43,6 +43,27 @@ class CfgEditorSubcategories
 	};
 };
 
+class cfgWeapons
+{
+	class HC_Commlink: ItemRadio {
+		author = "Queen";
+		displayName = "[HC] Commlink";
+		//descriptionShort = CSTRING(ANPRC152_Desc);
+		scope = 2;
+		scopeCurator = 2;
+		model = "";
+		picture = "";
+		tf_prototype = 1;
+		tf_range = 5000;
+		tf_dialog = "commlink_radio_dialog";
+		tf_encryptionCode = "tf_east_radio_code";
+		tf_dialogUpdate = "call TFAR_fnc_updateSWDialogToChannel;";
+		tf_subtype = "digital";
+		tf_parent = "TFAR_anprc152";
+		tf_additional_channel = 1;
+	};
+}
+
 class CfgVehicles
 {
 	//Backpacks

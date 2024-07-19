@@ -1,6 +1,6 @@
 class hc_lr_radio_dialog
 {
-    idd = 9990;
+    idd = 9991;
     movingEnable = 1;
     controlsBackground[] = { };
     objects[] = { };
