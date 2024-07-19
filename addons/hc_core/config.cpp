@@ -75,7 +75,7 @@ class CfgVehicles
 		tf_encryptionCode = "tf_east_radio_code";
 		tf_dialog = "hc_lr_radio_dialog";
 		tf_subtype = "digital_lr";
- 		tf_dialogUpdate = "[""CH%1""] call TFAR_fnc_updateLRDialogToChannel;";
+ 		tf_dialogUpdate = "['CH: %1'] call TFAR_fnc_updateLRDialogToChannel;";
 	};
 	//Uniforms
 	

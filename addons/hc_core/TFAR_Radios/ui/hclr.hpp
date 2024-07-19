@@ -77,7 +77,7 @@ class hc_lr_radio_dialog
         w = 0.0391667 * safezoneW;
         h = 0.0564 * safezoneH;
         tooltip = "Clear";
-        action = "ctrlSetText [2501, '']; ctrlSetFocus ((findDisplay 9990) displayCtrl 2501);"
+        action = "ctrlSetText [IDC_hc_lr_EDIT, '']; ctrlSetFocus ((findDisplay 9990) displayCtrl IDC_hc_lr_EDIT);"
         
     };
     class stereo: HiddenButton
@@ -121,7 +121,7 @@ class hc_lr_radio_dialog
         w = 0.1175 * safezoneW;
         h = 0.0564 * safezoneH;
         tooltip = "enter";
-        onButtonClick = "[((ctrlParent (_this select 0))) displayCtrl 2501] call TFAR_backpacks_fnc_onButtonClick_Enter;"
+        onButtonClick = "[((ctrlParent (_this select 0))) displayCtrl IDC_hc_lr_EDIT] call TFAR_backpacks_fnc_onButtonClick_Enter;"
         action = "";
     };
     class channel_01: HiddenButton
@@ -216,14 +216,14 @@ class hc_lr_radio_dialog
     };
     class channel_edit: RscEditLCD
     {
-        idc = 2500;
+        idc = IDC_hc_lr_CHANNEL_EDIT;
         text = "";
         x = 0.333542 * safezoneW + safezoneX;
         y = 0.359 * safezoneH + safezoneY;
         w = 0.05875 * safezoneW;
         h = 0.0752 * safezoneH;
         colorBackground[] = {0,0,0,0};
-        colorText[] = {32, 220, 49, 1};
+        colorText[] = {9, 250, 82, 1};
         font = "TFAR_font_segments";
         shadow = 1;
         sizeEx = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 32) * 1.2)";
@@ -233,14 +233,14 @@ class hc_lr_radio_dialog
     
     class edit: RscEditLCD
     {
-        idc = 2501;
-        text = "";
+        idc = IDC_hc_lr_EDIT;
+        text = ""
         x = 0.402083 * safezoneW + safezoneX;
         y = 0.359 * safezoneH + safezoneY;
         w = 0.122396 * safezoneW;
         h = 0.0752 * safezoneH;
         colorBackground[] = {0,0,0,0};
-        colorText[] = {1,0.5,0,1};
+        colorText[] = {9, 250, 82, 1};
         font = "TFAR_font_segments";
         shadow = 1;
         sizeEx = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 32) * 1.2)";
@@ -248,7 +248,7 @@ class hc_lr_radio_dialog
         canModify = 1;
         onKeyUp = QUOTE( \
             if (_this select 1 in [ARR_2(28,156)]) then { \
-                [((ctrlParent (_this select 0))) displayCtrl 2501] call TFAR_backpacks_fnc_onButtonClick_Enter; \
+                [((ctrlParent (_this select 0))) displayCtrl IDC_hc_lr_EDIT] call TFAR_backpacks_fnc_onButtonClick_Enter; \
             }; \
         );
     };
