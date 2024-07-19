@@ -171,7 +171,7 @@ class CfgVehicles
 		uniformClass = "";
 		backpack = "";
 		faction = "HC_Faction";
-		side = 2;
+		side = 0;
 		editorSubcategory = "EdSubcat_Personnel";
 		linkedItems[] = {};
 	};

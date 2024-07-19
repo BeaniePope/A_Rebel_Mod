@@ -28,7 +28,6 @@ class CfgFactionClasses
 		flag="\a3\Data_f\Flags\flag_nato_co.paa";
 		icon="";
 		priority=1;
-		side=1;
 	};
 };
 class CfgEditorSubcategories
