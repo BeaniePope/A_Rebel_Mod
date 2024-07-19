@@ -2,7 +2,7 @@ class CfgPatches
 {
     class HC_Core
     {
-        author= "HC Aux Team"
+        author= "HC Aux Team";
         requiredAddos[]=
         {
 			"JMSLLTE_scum"
@@ -16,6 +16,8 @@ class CfgPatches
         };
     };
 };
+
+
 ///TFAR Definitions
 #include "TFAR_Radios\uiDefines.hpp"
 #include "TFAR_Radios\ui\hclr.hpp"
@@ -127,3 +129,4 @@ class ACE_Tags {
         //tagModel = "UserTexture1m_F"; // Optional: The 3D Model that will be spawned with the texture on it, can either be CfgVehicles classname or P3D file path.
     };
 };
+
