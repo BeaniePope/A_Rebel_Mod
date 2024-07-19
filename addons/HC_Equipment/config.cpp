@@ -131,7 +131,7 @@ class CfgVehicles
 		};
 	};
 
-	class HC_Rebel_Backpack_Wood: JMSLLTE_back_rebradio_v1_wood
+	class HC_Rebel_Backpack_Wood: JMSLLTE_back_rebpack_v1_wood
 	{
 		author = "Queen";
 		scope = 2;
