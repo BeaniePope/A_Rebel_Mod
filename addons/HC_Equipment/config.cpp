@@ -123,11 +123,11 @@ class CfgVehicles
 		displayName = "[HC] Rebel Backpack (Black)";
 		hiddenSelectionsTextures[] = 
 		{
-			"\HC_Core\data\backpacks\HC_Rebel_Backpack_Black_co.paa"
+			"\HC_Equipment\data\backpacks\HC_Rebel_Backpack_Black_co.paa"
 		};
 		hiddenSelectionsMaterials[] =
 		{
-			"\HC_Core\data\HC_Rebel_Backpack_Black.rvmat"
+			"\HC_Equipment\data\HC_Rebel_Backpack_Black.rvmat"
 		};
 	};
 
@@ -171,7 +171,7 @@ class CfgVehicles
 		uniformClass = "";
 		backpack = "";
 		faction = "HC_Faction";
-		side = 1;
+		side = 2;
 		editorSubcategory = "EdSubcat_Personnel";
 		linkedItems[] = {};
 	};
