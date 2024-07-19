@@ -4,8 +4,8 @@ class hc_lr_radio_dialog
     movingEnable = 1;
     controlsBackground[] = { };
     objects[] = { };
-    onUnload = "['OnRadioOpen', [player, TF_lr_dialog_radio, false, 'anprc152_radio_dialog', false]] call TFAR_fnc_fireEventHandlers;";
-    //onLoad = QUOTE(if (sunOrMoon < 0.2) then {((_this select 0) displayCtrl TF_IDD_BACKGROUND) ctrlSetText 'PATHTOF(anprc152\ui\152_n.paa)';};);
+    onUnload = "['OnRadioOpen', [player, TF_lr_dialog_radio, false, 'hc_lr_radio_dialog', false]] call TFAR_fnc_fireEventHandlers;";
+    onLoad = "if (sunOrMoon < 0.2) then {((_this select 0) displayCtrl 1200) ctrlSetText 'hc_core\TFAR_Radios\ui\hclr.paa'};"
     controls[]= {
         background,
         volume_Switch,
@@ -28,7 +28,7 @@ class hc_lr_radio_dialog
         channel_edit,
         edit
     };
-    
+
     class background: RscBackPicture
     {
         idc = 1200;
@@ -87,7 +87,10 @@ class hc_lr_radio_dialog
         y = 0.6222 * safezoneH + safezoneY;
         w = 0.0391667 * safezoneW;
         h = 0.0564 * safezoneH;
-        action = "#define TFAR_MAX_STEREO 3 [TF_lr_dialog_radio, ((TF_lr_dialog_radio call TFAR_fnc_getCurrentLrStereo) + 1 mod TFAR_MAX_STEREO)] call TFAR_fnc_setLrStereo; [(call TFAR_fnc_activeLrRadio)] call TFAR_fnc_showRadioVolume;"
+        action = QUOTE( \
+            [ARR_2(TF_lr_dialog_radio, ((TF_lr_dialog_radio call TFAR_fnc_getCurrentLrStereo) + 1) mod TFAR_MAX_STEREO)] call TFAR_fnc_setLrStereo; \
+            [TF_lr_dialog_radio] call TFAR_fnc_showRadioVolume; \
+        );
         tooltip = "Stereo";
     };
     class additional: HiddenButton
@@ -97,7 +100,7 @@ class hc_lr_radio_dialog
         y = 0.6222 * safezoneH + safezoneY;
         w = 0.0391667 * safezoneW;
         h = 0.0564 * safezoneH;
-         tooltip = "Set Additional";
+        tooltip = "Set Additional";
         action = "[TF_lr_dialog_radio, TF_lr_dialog_radio call TFAR_fnc_getLrChannel] call TFAR_fnc_setAdditionalLrChannel; call TFAR_fnc_updateLRDialogToChannel; [TF_lr_dialog_radio, true] call TFAR_fnc_showRadioInfo;";
     };
     class speakers: HiddenButton
@@ -108,7 +111,7 @@ class hc_lr_radio_dialog
         w = 0.0391667 * safezoneW;
         h = 0.0564 * safezoneH;
         tooltip = "Speaker";
-        action = "[TF_lr_dialog_radio] call TFAR_fnc_setLrSpeakers;[TF_lr_dialog_radio] call TFAR_fnc_showRadioSpeakers;";
+        action =  "playSound 'TFAR_rotatorPush';TF_lr_dialog_radio call TFAR_fnc_setLrSpeakers;[TF_lr_dialog_radio] call TFAR_fnc_showRadioSpeakers";
     };
     class enter: HiddenButton
     {
@@ -220,7 +223,7 @@ class hc_lr_radio_dialog
         w = 0.05875 * safezoneW;
         h = 0.0752 * safezoneH;
         colorBackground[] = {0,0,0,0};
-        colorText[] = {1,0.5,0,1};
+        colorText[] = {32, 220, 49, 1};
         font = "TFAR_font_segments";
         shadow = 1;
         sizeEx = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 32) * 1.2)";
@@ -243,16 +246,13 @@ class hc_lr_radio_dialog
         sizeEx = "(((((safezoneW / safezoneH) min 1.2) / 1.2) / 32) * 1.2)";
         tooltip = "Change Frequency";
         canModify = 1;
-        onKeyUp ="if (_this select 1 in [28,156]) then {[((ctrlParent (_this select 0))) displayCtrl 2501] call TFAR_backpacks_fnc_onButtonClick_Enter;}"
+        onKeyUp = QUOTE( \
+            if (_this select 1 in [ARR_2(28,156)]) then { \
+                [((ctrlParent (_this select 0))) displayCtrl 2501] call TFAR_backpacks_fnc_onButtonClick_Enter; \
+            }; \
+        );
     };
 };
 
 
-////////////////////////////////////////////////////////
-// GUI EDITOR OUTPUT END
-////////////////////////////////////////////////////////
-
-////////////////////////////////////////////////////////
-// GUI EDITOR OUTPUT END
-////////////////////////////////////////////////////////
 
