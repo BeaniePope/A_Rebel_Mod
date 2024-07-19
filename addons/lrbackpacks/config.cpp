@@ -5,7 +5,7 @@ class CfgPatches {
         "HC_Rebel_Backpack_Black"
     };
     weapons[] = {};
-    requiredVersion = REQUIRED_VERSION;
+    //requiredVersion = REQUIRED_VERSION;
     requiredAddons[] = {
         "tfar_core",
         "tfar_static_radios"
