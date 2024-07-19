@@ -21,8 +21,8 @@ class CfgPatches
     };
 };
 ///idk why these here
-#include "uiDefines.hpp"
-#include "data\ui\hclr.hpp"
+#include "TFAR_Radios\uiDefines.hpp"
+#include "TFAR_Radios\ui\hclr.hpp"
 
 class CfgFactionClasses
 {

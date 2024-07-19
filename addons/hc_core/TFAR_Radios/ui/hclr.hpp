@@ -33,7 +33,7 @@ class hc_lr_radio_dialog
     {
         idc = 1200;
         moving = 1;
-        text = "hc_core\data\ui\hclr.paa";
+        text = "hc_core\TFAR_Radios\ui\hclr.paa";
         x = 0.304167 * safezoneW + safezoneX;
         y = 0.265 * safezoneH + safezoneY;
         w = 0.391667 * safezoneW;
