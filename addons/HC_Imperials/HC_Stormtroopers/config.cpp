@@ -28,7 +28,7 @@ class CfgFactionClasses
 		flag="\a3\Data_f\Flags\flag_nato_co.paa";
 		icon="";
 		priority=1;
-		side=1;
+		side=2;
 	};
 };
 class CfgEditorSubcategories
@@ -80,6 +80,7 @@ class CfgVehicles
     {
         author="greg";
         scope=2;
+        side = 1;
         faction="HC_Imperials"
         editorSubcategory="HC_STcore";
         displayName="[HC] Stormtrooper";

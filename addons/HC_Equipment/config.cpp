@@ -28,7 +28,6 @@ class CfgFactionClasses
 		displayName="Horizon Company";
 	};
 };
-
 class CfgEditorCategories
 {
 	class HC_Props
@@ -48,7 +47,6 @@ class CfgEditorSubcategories
 		displayName = "VIPs";
 	};
 };
-
 class CfgWeapons
 {
 	//Helmets
@@ -88,34 +86,147 @@ class CfgWeapons
 		};
 	};
 
+	//Vests
+	class JMSLLTE_CommandoBelt_armor;   //the horror of ace compats
+	class JMSLLTE_ComStrap_armor;  
+	class JMSLLTE_ComStrapBag_armor;  
+	class JMSLLTE_ComBag_armor;  
+	class JMSLLTE_HeavyBandBag_brown_armor;  
+	class JMSLLTE_HeavyBandBag_black_armor;  
+	class JMSLLTE_HeavyBand_black_armor;  
+	class JMSLLTE_HeavyBand_brown_armor;  
+	class JMSLLTE_HeavyBand2_black_armor;  
+	class JMSLLTE_HeavyBand2_brown_armor;  
+	class JMSLLTE_PathfinderBags_armor;  
+	class JMSLLTE_PathfinderVest_armor;  
+	class JMSLLTE_PathfinderBelt_armor;  
+	class JMSLLTE_SnowCommandoBelt_armor;  
+	class JMSLLTE_CommandosStrip_armor;  
+	class JMSLLTE_CommandosStripL_armor;  
+	class JMSLLTE_CommandosVest_armor;  
+	class JMSLLTE_CommandosVest2_armor;  
+	class JMSLLTE_CommandosVestL_armor;  
+	class JMSLLTE_PilotBreather_xwing;  
+	class JMSLLTE_NavytrooperStrip_armor;  
+	class JMSLLTE_NavytrooperHolster_armor;  
+
 };
-
-
-
-
 class CfgVehicles
 {
 	//Backpacks
-	// class JMSLLTE_back_rebpack_v1_black;
-	// class HC_Rebel_Backpack_Black: JMSLLTE_back_rebpack_v1_black
-	// {
-	// 	author = "Queen";
-	// 	scope = 2;
-	// 	tf_range = 40000;
-    // 	tf_encryptionCode = "tf_west_radio_code";
-    // 	tf_dialog = "hc_lr_radio_dialog";
-    // 	tf_subtype = "airborne";
-    // 	tf_dialogUpdate = "[""CH%1""] call TFAR_fnc_updateLRDialogToChannel;";
-	// 	hiddenSelectionsTextures[] = 
-	// 	{
-	// 		"\HC_Core\data\backpacks\HC_Rebel_Backpack_Black_co.paa"
-	// 	};
-	// 	hiddenSelectionsMaterials[] =
-	// 	{
-	// 		"\HC_Core\data\HC_Rebel_Backpack_Black.rvmat"
-	// 	};
-	// };
+	class JMSLLTE_back_rebpack_v1_black;
+	class JMSLLTE_back_rebpack_v1_wood;
+	class HC_Rebel_Backpack_Black: JMSLLTE_back_rebpack_v1_black
+	{
+		author = "Queen";
+		scope = 2;
+		displayName = "[HC] Rebel Backpack (Black)";
+		hiddenSelectionsTextures[] = 
+		{
+			"\HC_Core\data\backpacks\HC_Rebel_Backpack_Black_co.paa"
+		};
+		hiddenSelectionsMaterials[] =
+		{
+			"\HC_Core\data\HC_Rebel_Backpack_Black.rvmat"
+		};
+	};
+
+	class HC_Rebel_Backpack_Wood: JMSLLTE_back_rebradio_v1_wood
+	{
+		author = "Queen";
+		scope = 2;
+		displayName = "[HC] Rebel Backpack (Wood)";
+	};
 	//Uniforms
+	class JMSLLTE_ScumTroopHeavy_wood_F_CombatUniform; //Raincoats
+	class JMSLLTE_ScumTroopHeavy_brown_F_CombatUniform;
+	class JMSLLTE_ScumTroopHeavy_desert_F_CombatUniform;
+
+	class JMSLLTE_ScumCommando_cloud_F_CombatUniform; //"Suit" light 
+	class JMSLLTE_ScumCommando_woodD_F_CombatUniform;
+	class JMSLLTE_ScumCommando_desertS_F_CombatUniform;
+	class JMSLLTE_ScumCommando_green_F_CombatUniform;
+	class JMSLLTE_ScumCommando_wood_F_CombatUnifor;
+
+	class JMSLLTE_ScumAlCommando_cloud_F_CombatUniform; //"Wear" Suit
+	class JMSLLTE_ScumAlCommando_desert_F_CombatUniform;
+	class JMSLLTE_ScumAlCommando_base_F_CombatUniform;
+	class JMSLLTE_ScumAlCommando_wood_F_CombatUniform;
+
+	class HC_Rebel_Uniform_Suit: JMSLLTE_ScumAlCommando_wood_F_CombatUniform
+	{
+		author = "Queen";
+		scope = 2;
+		displayName = "[HC] Rebel Commando Suit";
+	};
+
+
+	//Units
+	class HC_Unit_Rebel_Trooper_Base: B_Soldier_base_F
+	{
+		author = "Queen";
+		scope = 0;
+		displayName = "[HC] Base Rebel Trooper (Dev)";
+		uniformClass = "";
+		backpack = "";
+		faction = "HC_Faction";
+		side = 1;
+		editorSubcategory = "EdSubcat_Personnel";
+		linkedItems[] = {};
+	};
+
+	class HC_Unit_Rebel_Trooper_Wood: HC_Unit_Rebel_Trooper_Base
+	{
+		author = "Queen";
+		scope = 2;
+		displayName = "[HC] Rebel Trooper";
+		uniformClass = "HC_Rebel_Uniform_Suit";
+		backpack = "HC_Rebel_Backpack_Wood";
+		editorSubcategory = "EdSubcat_Personnel_Camo_Woodland";
+		linkedItems[] = 
+		{
+			"HC_Commando_Helmet_Endor",
+			"ItemMap",
+			"ItemCompass",
+			"ItemWatch",
+			"HC_Commlink"
+		};
+		respawnLinkedItems[]=
+		{
+			"HC_Commando_Helmet_Endor",
+			"ItemMap",
+			"ItemCompass",
+			"ItemWatch",
+			"HC_Commlink"
+		};
+		weapons[]= 
+		{
+			"HC_a280",
+			"Throw",
+			"Put"
+		};
+		respawnWeapons[]= 
+		{
+			"HC_a280",
+			"Throw",
+			"Put"
+		};
+		magazines[]=
+		{
+			"HC_Magazine_A280_Uni",
+			"HC_Magazine_A280_Uni",
+			"HC_Magazine_A280_Uni",
+			"HC_Magazine_A280_Uni",
+			"HC_Magazine_A280_Uni"
+		};
+		respawnMagazines[]=
+		{
+			"HC_Magazine_A280_Uni",
+			"HC_Magazine_A280_Uni",
+			"HC_Magazine_A280_Uni",
+			"HC_Magazine_A280_Uni",
+			"HC_Magazine_A280_Uni"
+		};
+	};
+
 };
-
-
