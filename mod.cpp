@@ -1,9 +1,9 @@
 name			= "Horizon Company Auxiliary Mod";					// Name of your mod
 author			= "HC Aux Team";				// Affects Arma 3 Launcher, when the mod are loaded as local
 logo			= "HC_Core\data\logos\hclogo.paa";			// Logo displayed in the main menu
-logoOver		= "hc_HC_Corecore\data\logos\hclogo.paa";	// When the mouse is over, in the main menu
-tooltip			= "mod_";
-tooltipOwned	= "credit_mod";				// Tool tip displayed when the mouse is left over, in the main menu
+logoOver		= "HC_Core\data\logos\hclogo.paa";	// When the mouse is over, in the main menu
+tooltip			= "HC";
+tooltipOwned	= "HC Aux Mod Team";				// Tool tip displayed when the mouse is left over, in the main menu
 picture			= "HC_Core\data\logos\hclogo.paa";		// Picture displayed from the expansions menu. Optimal size is 2048x1024
 actionName		= "GitHub";
 action			= "https://github.com/BeaniePope/A_Rebel_Mod";			// Website URL, that can be accessed from the expansions menu
