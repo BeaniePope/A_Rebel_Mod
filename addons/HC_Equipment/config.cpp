@@ -116,20 +116,20 @@ class CfgVehicles
 	//Backpacks
 	class JMSLLTE_back_rebpack_v1_black;
 	class JMSLLTE_back_rebpack_v1_wood;
-	class HC_Rebel_Backpack_Black: JMSLLTE_back_rebpack_v1_black
-	{
-		author = "Queen";
-		scope = 2;
-		displayName = "[HC] Rebel Backpack (Black)";
-		hiddenSelectionsTextures[] = 
-		{
-			"\HC_Equipment\data\backpacks\HC_Rebel_Backpack_Black_co.paa"
-		};
-		hiddenSelectionsMaterials[] =
-		{
-			"\HC_Equipment\data\HC_Rebel_Backpack_Black.rvmat"
-		};
-	};
+	//class HC_Rebel_Backpack_Black: JMSLLTE_back_rebpack_v1_black
+	// {
+	// 	author = "Queen";
+	// 	scope = 2;
+	// 	displayName = "[HC] Rebel Backpack (Black)";
+	// 	hiddenSelectionsTextures[] = 
+	// 	{
+	// 		"\HC_Equipment\data\backpacks\HC_Rebel_Backpack_Black_co.paa"
+	// 	};
+	// 	hiddenSelectionsMaterials[] =
+	// 	{
+	// 		"\HC_Equipment\data\HC_Rebel_Backpack_Black.rvmat"
+	// 	};
+	// };
 
 	class HC_Rebel_Backpack_Wood: JMSLLTE_back_rebpack_v1_wood
 	{
@@ -230,4 +230,13 @@ class CfgVehicles
 		};
 	};
 
+	class HC_Unit_Rebel_Pathfinder_Base: B_Soldier_base_F
+	{
+		author = "Queen";
+		scope = 2;
+		displayName = "[HC] Rebel Pathfinder (Dev)";
+		uniformClass 
+	};
+
 };
+

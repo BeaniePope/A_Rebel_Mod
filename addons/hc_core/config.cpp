@@ -67,31 +67,13 @@ class cfgWeapons
 class CfgVehicles
 {
 	//Backpacks
-	// class JMSLLTE_back_rebpack_v1_black;
-	// class HC_Rebel_Backpack_Black: JMSLLTE_back_rebpack_v1_black
-	// {
-	// 	author = "Queen";
-	// 	scope = 2;
-	// 	tf_range = 40000;
-    // 	tf_encryptionCode = "tf_west_radio_code";
-    // 	tf_dialog = "hc_lr_radio_dialog";
-    // 	tf_subtype = "airborne";
-    // 	tf_dialogUpdate = "[""CH%1""] call TFAR_fnc_updateLRDialogToChannel;";
-	// 	hiddenSelectionsTextures[] = 
-	// 	{
-	// 		"\HC_Core\data\backpacks\HC_Rebel_Backpack_Black_co.paa"
-	// 	};
-	// 	hiddenSelectionsMaterials[] =
-	// 	{
-	// 		"\HC_Core\data\HC_Rebel_Backpack_Black.rvmat"
-	// 	};
-	// };
 	class JMSLLTE_back_rebradio_v1_black;
-	class HC_Rebel_Backpack_Black: JMSLLTE_back_rebradio_v1_black
+	class Endor_Rebel_Radio;
+	class HC_Backpack_LR_Black: Endor_Rebel_Radio
 	{
 		author = "Queen";
 		scope = 2;
-    	displayName = "[HC] LR Backpack";
+    	displayName = "[HC] U/MCL 77";
 		tf_range = 40000;
 		tf_encryptionCode = "tf_east_radio_code";
 		tf_dialog = "hc_lr_radio_dialog";
