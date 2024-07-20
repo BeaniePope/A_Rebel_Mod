@@ -69,7 +69,7 @@ class CfgVehicles
 	//Backpacks
 	class JMSLLTE_back_rebradio_v1_black;
 	class Endor_Rebel_Radio;
-	class HC_Backpack_LR_Black: Endor_Rebel_Radio
+	class HC_Backpack_LR_Green: Endor_Rebel_Radio
 	{
 		author = "Queen";
 		scope = 2;
@@ -102,16 +102,29 @@ class CfgVehicles
 		armor=1000;
 		class TransportMagazines
 		{
-
+			MACRO_MAG_x15(HC_Magazine_A280_Uni),
+			MACRO_MAG_x15(HC_Magazine_A280_Uni),
+			MACRO_MAG_x15(HC_Magazine_A280_Uni),
+			MACRO_MAG_x15(HC_Magazine_A300_Uni),
+			MACRO_MAG_x15(HC_Magazine_A300_Uni),
+			MACRO_MAG_x15(HC_Magazine_A300_Uni)
 		};
 		class TransportWeapons
 		{
-
+			MACRO_MAG_x5(HC_a280),
+			MACRO_MAG_x5(HC_a280c),
+			MACRO_MAG_x5(HC_a280cr),
+			MACRO_MAG_x5(HC_a280stock)
 		};
 		class TransportItems
 		{
-
+			MACRO_MAG_x10(HC_Commando_Helmet_Endor),
+			MACRO_MAG_x10(HC_Commando_Helmet_Cloud),
+			MACRO_MAG_x10(HC_Commando_Helmet_Black),
+			MACRO_MAG_x10(HC_Commando_Helmet_Desert),
+			MACRO_MAG_x5(HC_Backpack_LR_Green)
 		};
+
 	};
 	
 };

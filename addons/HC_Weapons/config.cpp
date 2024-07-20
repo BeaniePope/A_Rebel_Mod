@@ -23,6 +23,8 @@ class CfgPatches
     };
 };
 
+
+
 class CfgWeapons
 {
 	//Weapons

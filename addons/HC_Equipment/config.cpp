@@ -21,6 +21,8 @@ class CfgPatches
     };
 };
 
+#include "HC_Core\TFAR_Radios\uiDefines.hpp"
+
 class CfgFactionClasses
 {
 	class HC_Faction
@@ -214,19 +216,11 @@ class CfgVehicles
 		};
 		magazines[]=
 		{
-			"HC_Magazine_A280_Uni",
-			"HC_Magazine_A280_Uni",
-			"HC_Magazine_A280_Uni",
-			"HC_Magazine_A280_Uni",
-			"HC_Magazine_A280_Uni"
+			MACRO_MAG_x5(HC_Magazine_A280_Uni)
 		};
 		respawnMagazines[]=
 		{
-			"HC_Magazine_A280_Uni",
-			"HC_Magazine_A280_Uni",
-			"HC_Magazine_A280_Uni",
-			"HC_Magazine_A280_Uni",
-			"HC_Magazine_A280_Uni"
+			MACRO_MAG_x5(HC_Magazine_A280_Uni)
 		};
 	};
 
@@ -235,7 +229,7 @@ class CfgVehicles
 		author = "Queen";
 		scope = 2;
 		displayName = "[HC] Rebel Pathfinder (Dev)";
-		uniformClass 
+		uniformClass = ""
 	};
 
 };
