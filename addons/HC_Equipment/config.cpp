@@ -16,7 +16,12 @@ class CfgPatches
         };
         units[]=
         {
-
+			"HC_Rebel_Backpack_Wood",
+			"HC_Rebel_Uniform_Suit",
+			"HC_Unit_Rebel_Trooper_Base",
+			"HC_Unit_Rebel_Trooper_Wood",
+			"HC_Unit_Rebel_AntiTank_Wood",
+			"HC_Unit_Rebel_Pathfinder_Base"
         };
     };
 };
@@ -111,6 +116,12 @@ class CfgWeapons
 	class JMSLLTE_PilotBreather_xwing;  
 	class JMSLLTE_NavytrooperStrip_armor;  
 	class JMSLLTE_NavytrooperHolster_armor;  
+	class HC_Commando_Vest_1: JMSLLTE_CommandosVest_armor
+	{
+		author = "Queen";
+		scope = 2;
+		displayName = "[HC] Commando Vest";
+	};
 
 };
 class CfgVehicles
@@ -189,9 +200,59 @@ class CfgVehicles
 		linkedItems[] = 
 		{
 			"HC_Commando_Helmet_Endor",
+			"HC_Commando_Vest_1",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
+			"FirstAidKit",
+			"HC_Commlink"
+		};
+		respawnLinkedItems[]=
+		{
+			"HC_Commando_Helmet_Endor",
+			"ItemMap",
+			"ItemCompass",
+			"ItemWatch",
+			"FirstAidKit",
+			"HC_Commlink"
+		};
+		weapons[]= 
+		{
+			"HC_a280",
+			"Throw",
+			"Put"
+		};
+		respawnWeapons[]= 
+		{
+			"HC_a280",
+			"Throw",
+			"Put"
+		};
+		magazines[]=
+		{
+			MACRO_MAG_x5(HC_Magazine_A280_Uni)
+		};
+		respawnMagazines[]=
+		{
+			MACRO_MAG_x5(HC_Magazine_A280_Uni)
+		};
+	};
+
+	class HC_Unit_Rebel_AntiTank_Wood: HC_Unit_Rebel_Trooper_Base
+	{
+		scope = 2;
+		displayName = "[HC] Rebel AT Trooper";
+		uniformClass = "HC_Rebel_Uniform_Suit";
+		backpack = "HC_Rebel_Backpack_Wood";
+		editorSubcategory = "EdSubcat_Personnel_Camo_Woodland";
+		linkedItems[] = 
+		{
+			"HC_Commando_Helmet_Endor",
+			"HC_Commando_Vest_1",
+			"ItemMap",
+			"ItemCompass",
+			"ItemWatch",
+			"FirstAidKit",
 			"HC_Commlink"
 		};
 		respawnLinkedItems[]=
@@ -224,12 +285,100 @@ class CfgVehicles
 		};
 	};
 
+	class HC_Unit_Rebel_Medic_Wood: HC_Unit_Rebel_Trooper_Base
+	{
+		scope = 2;
+		displayName = "[HC] Rebel Medical Trooper";
+		uniformClass = "HC_Rebel_Uniform_Medic";
+		backpack = "HC_Medical_Backpack_Wood";
+		linkedItems[] = 
+		{
+			"HC_Medical_Helmet_Endor",
+			"HC_Commando_Vest_1",
+			"ItemMap",
+			"ItemCompass",
+			"ItemWatch",
+			MACRO_MAG_x5(FirstAidKit),
+			"MedicKit"
+			"HC_Commlink"
+		};
+		respawnLinkedItems[] =
+		{
+			"HC_Medical_Helmet_Endor",
+			"HC_Commando_Vest_1",
+			"ItemMap",
+			"ItemCompass",
+			"ItemWatch",
+			MACRO_MAG_x5(FirstAidKit),
+			"MedicKit",			
+			"HC_Commlink"
+		};
+		weapons[] = 
+		{
+			"HC_a280c"
+			"Throw",
+			"Put"
+		};
+		respawnWeapons[] =
+		{
+			"HC_a280c"
+			"Throw",
+			"Put"
+		};
+		magazines[] = 
+		{
+			MACRO_MAG_x5(HC_Magazine_A280_Uni)
+		};
+		respawnMagazines[] =
+		{
+			MACRO_MAG_x5(HC_Magazine_A280_Uni)
+		};
+	};
+
 	class HC_Unit_Rebel_Pathfinder_Base: B_Soldier_base_F
 	{
 		author = "Queen";
-		scope = 2;
+		scope = 0;
 		displayName = "[HC] Rebel Pathfinder (Dev)";
-		uniformClass = ""
+		uniformClass = "HC_Rebel_Pathfinder_Uniform";
+		backpack = "HC_Rebel_Backpack";
+		editorSubcategory = "EdSubcat_Personnel";
+		linkedItems[]=
+		{
+			"HC_Pathfinder_Helmet_Green",
+			"ItemMap",
+			"ItemCompass",
+			"ItemWatch",
+			"HC_Commlink"
+		};
+		respawnLinkedItems[]=
+		{
+			"HC_Pathfinder_Helmet_Green",
+			"ItemMap",
+			"ItemCompass",
+			"ItemWatch",
+			"HC_Commlink"
+		};
+		weapons[] = 
+		{
+			"HC_a300",
+			"Throw",
+			"Put"
+		};
+		respawnWeapons[]= 
+		{
+			"HC_a300",
+			"Throw",
+			"Put"
+		};
+		magazines[]=
+		{
+			MACRO_MAG_x5(HC_Magazine_A300_Uni)
+		};
+		respawnMagazines[]=
+		{
+			MACRO_MAG_x5(HC_Magazine_A300_Uni)
+		};
 	};
 
 };

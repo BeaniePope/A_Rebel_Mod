@@ -20,6 +20,12 @@ class CfgPatches
         {
 
         };
+		magazines[]=
+		{
+			"HC_Magazine_Core",
+			"HC_Magazine_A280_Uni",
+			"HC_Magazine_A300_Uni"
+		}
     };
 };
 

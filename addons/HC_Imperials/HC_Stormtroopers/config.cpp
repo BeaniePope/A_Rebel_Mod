@@ -6,7 +6,6 @@ class CfgPatches
         author="Greg"
         requiredAddons[]=
         {
-            "JMSLLTE_empire",
             "JMSLLTE_factions"
         };
         weapons[]=
