@@ -41,6 +41,14 @@ class CfgFactionClasses
 		priority=1;
 	};
 };
+
+class CfgEditorSubcategories
+{
+    class HC_EdSubcat_Personnel_Stormtroopers
+    {
+        displayName = "Men (Stormtroopers)";
+    };
+};
 class CfgWeapons
 {
     ///helmets
@@ -85,7 +93,7 @@ class CfgVehicles
         scope = 0;
         side = 1;
         faction="HC_Imperials"
-        editorSubcategory="EdSubcat_Personnel";
+        editorSubcategory="HC_EdSubcat_Personnel_Stormtroopers";
         displayName="[HC] Stormtrooper (Dev)";
         uniformClass="HC_Imperial_ST_Base_U";
     };
