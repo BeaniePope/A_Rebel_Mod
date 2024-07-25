@@ -37,14 +37,11 @@ class CfgEditorSubcategories
 		displayName="Resupply";
 		priority=1;
 	};
-	class HC_VIP
-	{
-		displayName = "VIPs";
-	};
 };
 
 class cfgWeapons
 {
+	class ItemRadio;
 	class HC_Commlink: ItemRadio {
 		author = "Queen";
 		displayName = "[HC] Commlink";
@@ -80,7 +77,7 @@ class CfgVehicles
 		tf_subtype = "digital_lr";
  		tf_dialogUpdate = "['CH: %1'] call TFAR_fnc_updateLRDialogToChannel;";
 	};
-	//Uniforms
+	//Uniforms USE EdSubcat_Personnel_Story FOR CUSTOMS GEORGE <3
 	
 	//Objects
 	class JLTS_Ammobox_weapons_GAR;
@@ -100,7 +97,7 @@ class CfgVehicles
 		};
 		icon="iconCrateWpns";
 		armor=1000;
-		class TransportMagazines
+		TransportMagazines[] =
 		{
 			MACRO_MAG_x15(HC_Magazine_A280_Uni),
 			MACRO_MAG_x15(HC_Magazine_A280_Uni),
@@ -109,14 +106,14 @@ class CfgVehicles
 			MACRO_MAG_x15(HC_Magazine_A300_Uni),
 			MACRO_MAG_x15(HC_Magazine_A300_Uni)
 		};
-		class TransportWeapons
+		TransportWeapons[]=
 		{
 			MACRO_MAG_x5(HC_a280),
 			MACRO_MAG_x5(HC_a280c),
 			MACRO_MAG_x5(HC_a280cr),
 			MACRO_MAG_x5(HC_a280stock)
 		};
-		class TransportItems
+		TransportItems[]=
 		{
 			MACRO_MAG_x10(HC_Commando_Helmet_Endor),
 			MACRO_MAG_x10(HC_Commando_Helmet_Cloud),

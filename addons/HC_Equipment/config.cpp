@@ -26,8 +26,7 @@ class CfgPatches
     };
 };
 
-#include "HC_Core\TFAR_Radios\uiDefines.hpp"
-
+#include "includes.hpp"
 class CfgFactionClasses
 {
 	class HC_Faction
@@ -299,7 +298,7 @@ class CfgVehicles
 			"ItemCompass",
 			"ItemWatch",
 			MACRO_MAG_x5(FirstAidKit),
-			"MedicKit"
+			"MedicKit",
 			"HC_Commlink"
 		};
 		respawnLinkedItems[] =
@@ -315,13 +314,13 @@ class CfgVehicles
 		};
 		weapons[] = 
 		{
-			"HC_a280c"
+			"HC_a280c",
 			"Throw",
 			"Put"
 		};
 		respawnWeapons[] =
 		{
-			"HC_a280c"
+			"HC_a280c",
 			"Throw",
 			"Put"
 		};
