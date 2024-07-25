@@ -7,7 +7,6 @@ class CfgPatches
         requiredAddons[]=
         {
             "JMSLLTE_Faction_name",
-    
         };
         weapons[]=
         {

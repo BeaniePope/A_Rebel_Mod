@@ -3,9 +3,9 @@ class CfgPatches
     class HC_Core
     {
         author= "HC Aux Team";
-        requiredAddos[]=
+        requiredAddons[]=
         {
-			"JMSLLTE_scum"
+			
         };
         weapons[]=
         {

@@ -122,6 +122,23 @@ class CfgWeapons
 		displayName = "[HC] Commando Vest";
 	};
 
+	//Uniforms
+	class UniformItem;
+	class JMSLLTE_ScumAlCommando_wood_F_CombatUniform;
+	class HC_Rebel_Uniform_Suit_Wood: JMSLLTE_ScumAlCommando_wood_F_CombatUniform
+	{
+		author = "Queen";
+		scope = 2;
+		displayName = "[HC] Rebel Commando Suit";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="HC_Unit_Rebel_Trooper_Base";
+			containerClass="Supply150";
+			mass=100;
+		};
+	};
+
 };
 class CfgVehicles
 {
@@ -158,29 +175,24 @@ class CfgVehicles
 	class JMSLLTE_ScumCommando_woodD_F_CombatUniform;
 	class JMSLLTE_ScumCommando_desertS_F_CombatUniform;
 	class JMSLLTE_ScumCommando_green_F_CombatUniform;
-	class JMSLLTE_ScumCommando_wood_F_CombatUnifor;
+	class JMSLLTE_ScumCommando_wood_F_CombatUniform;
 
 	class JMSLLTE_ScumAlCommando_cloud_F_CombatUniform; //"Wear" Suit
 	class JMSLLTE_ScumAlCommando_desert_F_CombatUniform;
 	class JMSLLTE_ScumAlCommando_base_F_CombatUniform;
 	class JMSLLTE_ScumAlCommando_wood_F_CombatUniform;
 
-	class HC_Rebel_Uniform_Suit: JMSLLTE_ScumAlCommando_wood_F_CombatUniform
-	{
-		author = "Queen";
-		scope = 2;
-		displayName = "[HC] Rebel Commando Suit";
-	};
 
 
-	//Units
+
+	//Units USE EdSubcat_Personnel_Story FOR CUSTOMS GEORGE <3
 	class B_Soldier_base_F;
 	class HC_Unit_Rebel_Trooper_Base: B_Soldier_base_F
 	{
 		author = "Queen";
 		scope = 0;
 		displayName = "[HC] Base Rebel Trooper (Dev)";
-		uniformClass = "";
+		uniformClass = "HC_Rebel_Uniform_Suit_Wood";
 		backpack = "";
 		faction = "HC_Faction";
 		side = 0;
@@ -193,7 +205,7 @@ class CfgVehicles
 		author = "Queen";
 		scope = 2;
 		displayName = "[HC] Rebel Trooper";
-		uniformClass = "HC_Rebel_Uniform_Suit";
+		uniformClass = "HC_Rebel_Uniform_Suit_Wood";
 		backpack = "HC_Rebel_Backpack_Wood";
 		editorSubcategory = "EdSubcat_Personnel_Camo_Woodland";
 		linkedItems[] = 
@@ -241,7 +253,7 @@ class CfgVehicles
 	{
 		scope = 2;
 		displayName = "[HC] Rebel AT Trooper";
-		uniformClass = "HC_Rebel_Uniform_Suit";
+		uniformClass = "HC_Rebel_Uniform_Suit_Wood";
 		backpack = "HC_Rebel_Backpack_Wood";
 		editorSubcategory = "EdSubcat_Personnel_Camo_Woodland";
 		linkedItems[] = 
@@ -288,7 +300,7 @@ class CfgVehicles
 	{
 		scope = 2;
 		displayName = "[HC] Rebel Medical Trooper";
-		uniformClass = "HC_Rebel_Uniform_Medic";
+		uniformClass = "HC_Rebel_Uniform_Suit_Wood";
 		backpack = "HC_Medical_Backpack_Wood";
 		linkedItems[] = 
 		{
@@ -339,7 +351,7 @@ class CfgVehicles
 		author = "Queen";
 		scope = 0;
 		displayName = "[HC] Rebel Pathfinder (Dev)";
-		uniformClass = "HC_Rebel_Pathfinder_Uniform";
+		uniformClass = "HC_Rebel_Uniform_Suit_Wood";
 		backpack = "HC_Rebel_Backpack";
 		editorSubcategory = "EdSubcat_Personnel";
 		linkedItems[]=
