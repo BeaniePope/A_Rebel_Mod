@@ -97,30 +97,6 @@ class CfgVehicles
 		};
 		icon="iconCrateWpns";
 		armor=1000;
-		TransportMagazines[] =
-		{
-			MACRO_MAG_x15(HC_Magazine_A280_Uni),
-			MACRO_MAG_x15(HC_Magazine_A280_Uni),
-			MACRO_MAG_x15(HC_Magazine_A280_Uni),
-			MACRO_MAG_x15(HC_Magazine_A300_Uni),
-			MACRO_MAG_x15(HC_Magazine_A300_Uni),
-			MACRO_MAG_x15(HC_Magazine_A300_Uni)
-		};
-		TransportWeapons[]=
-		{
-			MACRO_MAG_x5(HC_a280),
-			MACRO_MAG_x5(HC_a280c),
-			MACRO_MAG_x5(HC_a280cr),
-			MACRO_MAG_x5(HC_a280stock)
-		};
-		TransportItems[]=
-		{
-			MACRO_MAG_x10(HC_Commando_Helmet_Endor),
-			MACRO_MAG_x10(HC_Commando_Helmet_Cloud),
-			MACRO_MAG_x10(HC_Commando_Helmet_Black),
-			MACRO_MAG_x10(HC_Commando_Helmet_Desert),
-			MACRO_MAG_x5(HC_Backpack_LR_Green)
-		};
 
 	};
 	
@@ -129,7 +105,7 @@ class CfgVehicles
 
 
 class ACE_Tags {
-    class yourTagClass {
+    class Horizon_Logo {
         displayName = "Horizon";  // Name of your tag being displayed in the interaction menu
         requiredItem = "ACE_SpraypaintRed";  // Required item to have in the inventory to be able to spray your tag (eg. `"ACE_SpraypaintBlack"`, `"ACE_SpraypaintRed"`, `"ACE_SpraypaintGreen"`, `"ACE_SpraypaintBlue"` or any custom item from `CfgWeapons`)
         textures[] = 
