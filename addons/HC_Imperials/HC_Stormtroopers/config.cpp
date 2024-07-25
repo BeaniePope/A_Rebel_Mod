@@ -36,7 +36,7 @@ class CfgFactionClasses
     class HC_Imperials
     {
 		displayName="[HC] Imperial Faction";
-		author="SW 1st KG";
+		author="Queen";
 		flag="\a3\Data_f\Flags\flag_nato_co.paa";
 		icon="";
 		priority=1;
