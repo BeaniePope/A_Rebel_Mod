@@ -691,9 +691,7 @@ class CfgGroups
                     faction = "HC_Imperials";
                     side = 1;
                     class Object0	{side = 1; vehicle = "WM_74Z_Imperial_Brown"; rank = "PRIVATE"; position[] = {0,0,0}; dir = 0;};
-                    class Object1	{side = 1; vehicle = "HC_Unit_Imperial_SCT_Trooper"; rank = "PRIVATE"; position[] = {0.00463867,-0.820801,0.977473}; dir = 0;};
                     class Object2	{side = 1; vehicle = "WM_74Z_Imperial_Brown"; rank = "PRIVATE"; position[] = {1.81665,-1.94263,0}; dir = 0;};
-                    class Object3	{side = 1; vehicle = "HC_Unit_Imperial_SCT_Trooper"; rank = "PRIVATE"; position[] = {1.82129,-2.76343,0.977473}; dir = 0;};
                 };
             };
 
