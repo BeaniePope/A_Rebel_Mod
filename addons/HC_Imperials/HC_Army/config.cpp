@@ -14,7 +14,16 @@ class CfgPatches
         };
         units[] = 
         {
-
+            "HC_Unit_Imperial_Army_Trooper_Light",
+            "HC_Unit_Imperial_Army_Trooper",
+            "HC_Unit_Imperial_Army_Autorifleman",
+            "HC_Unit_Imperial_Army_AT",
+            "HC_Unit_Imperial_Army_Medic",
+            "HC_Unit_Imperial_Army_Shock",
+            "HC_Unit_Imperial_Mudtrooper",
+            "HC_Unit_Imperial_Mudtrooper_Medic",
+            "HC_Unit_Imperial_Mudtrooper_AT",
+            "HC_Unit_Imperial_Mudtrooper_Autorifleman"
         };
     };
 };
@@ -445,6 +454,7 @@ class CfgGroups
     {
         class HC_Imperials
         {
+            scope = 2;
             name = "[HC] Imperial Faction";
             class Infantry
             {

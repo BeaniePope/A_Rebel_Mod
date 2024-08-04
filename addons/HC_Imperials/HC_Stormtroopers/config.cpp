@@ -571,6 +571,7 @@ class CfgGroups
     {
         class HC_Imperials
         {   
+            scope = 2;
             name = "[HC] Imperial Faction";
             class Infantry
             {
