@@ -502,6 +502,16 @@ class CfgGroups
                     class Object1	{side = 1; vehicle = "HC_Unit_Imperial_Army_AT"; rank = "PRIVATE"; position[] = {1.49414,1.43091,0.00143909}; dir = 181.656;};
                     class Object2	{side = 1; vehicle = "HC_Unit_Imperial_Army_AT"; rank = "PRIVATE"; position[] = {-1.25586,1.45117,0.00143909}; dir = 181.656;};
                 };
+                class HC_Group_Army_Patrol
+                {
+                    name = "4x Patrol Team";
+                    faction = "HC_Imperials";
+                    side = 1;
+                    class Object0	{side = 1; vehicle = "HC_Unit_Imperial_Army_Trooper"; rank = "PRIVATE"; position[] = {0,0,0.00143909}; dir = 180.063;};
+                    class Object1	{side = 1; vehicle = "HC_Unit_Imperial_Army_Trooper"; rank = "PRIVATE"; position[] = {0.0668945,1.87476,0.00143909}; dir = 180.063;};
+                    class Object2	{side = 1; vehicle = "HC_Unit_Imperial_Army_Trooper"; rank = "PRIVATE"; position[] = {0.0537109,4.25049,0.00143909}; dir = 180.063;};
+                    class Object3	{side = 1; vehicle = "HC_Unit_Imperial_Army_Trooper"; rank = "PRIVATE"; position[] = {0.179688,6.11987,0.00143909}; dir = 180.063;};
+                };
             };
             class Mechanized
             {

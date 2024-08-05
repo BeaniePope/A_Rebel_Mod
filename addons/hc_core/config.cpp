@@ -12,7 +12,9 @@ class CfgPatches
         };
         units[]=
         {
-			"HC_Rebel_Backpack_Black"
+			"HC_Rebel_Backpack_Black",
+			"HC_Backpack_LR_Green",
+			"HC_Ammobox_REB"
         };
     };
 };
@@ -66,6 +68,7 @@ class CfgVehicles
 	//Backpacks
 	class JMSLLTE_back_rebradio_v1_black;
 	class Endor_Rebel_Radio;
+	class ItemInfo;
 	class HC_Backpack_LR_Green: Endor_Rebel_Radio
 	{
 		author = "Queen";
@@ -76,6 +79,7 @@ class CfgVehicles
 		tf_dialog = "hc_lr_radio_dialog";
 		tf_subtype = "digital_lr";
  		tf_dialogUpdate = "['CH: %1'] call TFAR_fnc_updateLRDialogToChannel;";
+		maximumLoad = 160;
 	};
 	//Uniforms USE EdSubcat_Personnel_Story FOR CUSTOMS GEORGE <3
 	

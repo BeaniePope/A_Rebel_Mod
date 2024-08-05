@@ -55,6 +55,7 @@ class CfgEditorSubcategories
 };
 class CfgWeapons
 {
+	class ItemInfo;
 	//Helmets
 	class JMSLLTE_Commando_endor_helmet;
 	class HC_Commando_Helmet_Endor: JMSLLTE_Commando_endor_helmet
@@ -93,34 +94,42 @@ class CfgWeapons
 	};
 
 	//Vests
-	class JMSLLTE_CommandoBelt_armor;   //the horror of ace compats
-	class JMSLLTE_ComStrap_armor;  
-	class JMSLLTE_ComStrapBag_armor;  
-	class JMSLLTE_ComBag_armor;  
-	class JMSLLTE_HeavyBandBag_brown_armor;  
-	class JMSLLTE_HeavyBandBag_black_armor;  
-	class JMSLLTE_HeavyBand_black_armor;  
-	class JMSLLTE_HeavyBand_brown_armor;  
-	class JMSLLTE_HeavyBand2_black_armor;  
-	class JMSLLTE_HeavyBand2_brown_armor;  
-	class JMSLLTE_PathfinderBags_armor;  
-	class JMSLLTE_PathfinderVest_armor;  
-	class JMSLLTE_PathfinderBelt_armor;  
-	class JMSLLTE_SnowCommandoBelt_armor;  
-	class JMSLLTE_CommandosStrip_armor;  
-	class JMSLLTE_CommandosStripL_armor;  
-	class JMSLLTE_CommandosVest_armor;  
-	class JMSLLTE_CommandosVest2_armor;  
-	class JMSLLTE_CommandosVestL_armor;  
-	class JMSLLTE_PilotBreather_xwing;  
-	class JMSLLTE_NavytrooperStrip_armor;  
-	class JMSLLTE_NavytrooperHolster_armor;  
+	class HC_Vest_Supply
+	{
+		class ItemInfo: ItemInfo
+		{	
+			containerClass = "Supply80";
+		};
+	};
+	class JMSLLTE_CommandoBelt_armor: HC_Vest_Supply{};   //the horror of ace compats
+	class JMSLLTE_ComStrap_armor: HC_Vest_Supply{};  
+	class JMSLLTE_ComStrapBag_armor: HC_Vest_Supply{};  
+	class JMSLLTE_ComBag_armor: HC_Vest_Supply{};  
+	class JMSLLTE_HeavyBandBag_brown_armor: HC_Vest_Supply{};  
+	class JMSLLTE_HeavyBandBag_black_armor: HC_Vest_Supply{};
+	class JMSLLTE_HeavyBand_black_armor: HC_Vest_Supply{};
+	class JMSLLTE_HeavyBand_brown_armor: HC_Vest_Supply{};
+	class JMSLLTE_HeavyBand2_black_armor: HC_Vest_Supply{};
+	class JMSLLTE_HeavyBand2_brown_armor: HC_Vest_Supply{};
+	class JMSLLTE_PathfinderBags_armor: HC_Vest_Supply{};
+	class JMSLLTE_PathfinderVest_armor: HC_Vest_Supply{};
+	class JMSLLTE_PathfinderBelt_armor: HC_Vest_Supply{};
+	class JMSLLTE_SnowCommandoBelt_armor: HC_Vest_Supply{};
+	class JMSLLTE_CommandosStrip_armor: HC_Vest_Supply{};
+	class JMSLLTE_CommandosStripL_armor: HC_Vest_Supply{};
+	class JMSLLTE_CommandosVest_armor: HC_Vest_Supply{};
+	class JMSLLTE_CommandosVest2_armor: HC_Vest_Supply{};
+	class JMSLLTE_CommandosVestL_armor: HC_Vest_Supply{};
+	class JMSLLTE_PilotBreather_xwing: HC_Vest_Supply{};
+	class JMSLLTE_NavytrooperStrip_armor: HC_Vest_Supply{};
+	class JMSLLTE_NavytrooperHolster_armor: HC_Vest_Supply{};
 	class HC_Commando_Vest_1: JMSLLTE_CommandosVest_armor
 	{
 		author = "Queen";
 		scope = 2;
 		displayName = "[HC] Commando Vest";
 	};
+	
 
 	//Uniforms
 	class UniformItem;
