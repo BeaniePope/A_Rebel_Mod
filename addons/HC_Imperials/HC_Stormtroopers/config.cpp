@@ -73,11 +73,11 @@ class CfgWeapons
     class HC_Imperial_ST_Base_U: WM_StormArmor
     {
         author="Greg";
-		scope=2;
+		scope=0;
         displayName="[HC] Stormtrooper Uniform";
         class ItemInfo: UniformItem
 		{
-			uniformModel="-";
+			//uniformModel="-";
 			uniformClass="HC_Imps_ST_Base";
 			containerClass="Supply150";
 			mass=100;

@@ -173,7 +173,7 @@ class CfgAmmo
         ACE_bulletMass = 12; 
 		//model="\3AS\3AS_Weapons\Data\tracer_blue.p3d";
 		//effectFly="3AS_PlasmaBolt_Blue_Fly";
-		typicalspeed=820;
+		typicalspeed=1020;
 		dangerRadiusBulletClose=8;
 		dangerRadiusHit=12;
 		suppressionRadiusBulletClose=8;
@@ -196,7 +196,7 @@ class CfgAmmo
 		dangerRadiusHit=12;
 		suppressionRadiusBulletClose=6;
 		suppressionRadiusHit=8;
-		typicalSpeed=835;
+		typicalSpeed=1055;
 		caliber=1.8;
     };
 	class HC_Ammo_338: HC_Ammo_Core

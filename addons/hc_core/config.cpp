@@ -110,7 +110,7 @@ class CfgVehicles
 
 class ACE_Tags {
     class Horizon_Logo {
-        displayName = "Horizon";  // Name of your tag being displayed in the interaction menu
+        displayName = "Horizon Company";  // Name of your tag being displayed in the interaction menu
         requiredItem = "ACE_SpraypaintRed";  // Required item to have in the inventory to be able to spray your tag (eg. `"ACE_SpraypaintBlack"`, `"ACE_SpraypaintRed"`, `"ACE_SpraypaintGreen"`, `"ACE_SpraypaintBlue"` or any custom item from `CfgWeapons`)
         textures[] = 
 		{
