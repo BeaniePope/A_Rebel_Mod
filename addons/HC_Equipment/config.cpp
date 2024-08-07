@@ -93,6 +93,13 @@ class CfgWeapons
 		};
 	};
 
+	class HC_Commando_Helmet_Empty: HC_Commando_Helmet_Endor
+	{
+		displayName = "[HC] Commando Helmet (Invisible)";
+		model = "";
+	};
+
+
 	//Vests
 	class HC_Vest_Supply
 	{
@@ -101,7 +108,14 @@ class CfgWeapons
 			containerClass = "Supply80";
 		};
 	};
-	class JMSLLTE_CommandoBelt_armor: HC_Vest_Supply{};   //the horror of ace compats
+	//the horror of ace compats
+	class JMSLLTE_CommandoBelt_armor: JMSLLTE_CommandoBelt_armor
+	{
+		class ItemInfo: ItemInfo
+		{	
+			containerClass = "Supply80";
+		};
+	};   
 	class JMSLLTE_ComStrap_armor: HC_Vest_Supply{};  
 	class JMSLLTE_ComStrapBag_armor: HC_Vest_Supply{};  
 	class JMSLLTE_ComBag_armor: HC_Vest_Supply{};  
