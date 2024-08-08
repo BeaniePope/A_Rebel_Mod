@@ -121,7 +121,7 @@ class hc_lr_radio_dialog
         w = 0.1175 * safezoneW;
         h = 0.0564 * safezoneH;
         tooltip = "enter";
-        onButtonClick = "[((ctrlParent (_this select 0))) displayCtrl IDC_hc_lr_EDIT] call TFAR_backpacks_fnc_onButtonClick_Enter;"
+        onButtonClick = QUOTE([((ctrlParent (_this select 0))) displayCtrl IDC_ANPRC210_EDIT] call TFAR_backpacks_fnc_onButtonClick_Enter;);
         action = "";
     };
     class channel_01: HiddenButton

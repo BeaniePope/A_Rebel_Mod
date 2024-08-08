@@ -4,7 +4,7 @@ class commlink_radio_dialog
     movingEnable = 1;
     controlsBackground[] = { };
     objects[] = { };
-     onUnload = "['OnRadioOpen', [player, TF_sw_dialog_radio, false, 'anprc152_radio_dialog', false]] call TFAR_fnc_fireEventHandlers;";
+    onUnload = "['OnRadioOpen', [player, TF_sw_dialog_radio, false, 'anprc152_radio_dialog', false]] call TFAR_fnc_fireEventHandlers;";
     onLoad = QUOTE(if (sunOrMoon < 0.2) then {((_this select 0) displayCtrl 1200) ctrlSetText 'path\to\paa';};);    controls[]= {
         background,
         channel_01,
@@ -34,7 +34,7 @@ class commlink_radio_dialog
         text = "path\to\paa";
         x = 0.44125 * safezoneW + safezoneX;
         y = 0.265 * safezoneH + safezoneY;
-        w = 0.127292 * safezoneW;
+        w = 0.391667 * safezoneW;
         h = 0.47 * safezoneH;
     };
     class channel_01: HiddenButton

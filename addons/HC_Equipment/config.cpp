@@ -101,47 +101,226 @@ class CfgWeapons
 
 
 	//Vests
-	class HC_Vest_Supply
-	{
-		class ItemInfo: ItemInfo
-		{	
-			containerClass = "Supply80";
-		};
-	};
 	//the horror of ace compats
-	class JMSLLTE_CommandoBelt_armor: JMSLLTE_CommandoBelt_armor
+	class HC_Commando_Belt_V: JMSLLTE_CommandoBelt_armor
 	{
+		author = "Queen";
+		scope = 2;
+		displayName = "[HC] Commando Belt";
 		class ItemInfo: ItemInfo
 		{	
 			containerClass = "Supply80";
 		};
 	};   
-	class JMSLLTE_ComStrap_armor: HC_Vest_Supply{};  
-	class JMSLLTE_ComStrapBag_armor: HC_Vest_Supply{};  
-	class JMSLLTE_ComBag_armor: HC_Vest_Supply{};  
-	class JMSLLTE_HeavyBandBag_brown_armor: HC_Vest_Supply{};  
-	class JMSLLTE_HeavyBandBag_black_armor: HC_Vest_Supply{};
-	class JMSLLTE_HeavyBand_black_armor: HC_Vest_Supply{};
-	class JMSLLTE_HeavyBand_brown_armor: HC_Vest_Supply{};
-	class JMSLLTE_HeavyBand2_black_armor: HC_Vest_Supply{};
-	class JMSLLTE_HeavyBand2_brown_armor: HC_Vest_Supply{};
-	class JMSLLTE_PathfinderBags_armor: HC_Vest_Supply{};
-	class JMSLLTE_PathfinderVest_armor: HC_Vest_Supply{};
-	class JMSLLTE_PathfinderBelt_armor: HC_Vest_Supply{};
-	class JMSLLTE_SnowCommandoBelt_armor: HC_Vest_Supply{};
-	class JMSLLTE_CommandosStrip_armor: HC_Vest_Supply{};
-	class JMSLLTE_CommandosStripL_armor: HC_Vest_Supply{};
-	class JMSLLTE_CommandosVest_armor: HC_Vest_Supply{};
-	class JMSLLTE_CommandosVest2_armor: HC_Vest_Supply{};
-	class JMSLLTE_CommandosVestL_armor: HC_Vest_Supply{};
-	class JMSLLTE_PilotBreather_xwing: HC_Vest_Supply{};
-	class JMSLLTE_NavytrooperStrip_armor: HC_Vest_Supply{};
-	class JMSLLTE_NavytrooperHolster_armor: HC_Vest_Supply{};
-	class HC_Commando_Vest_1: JMSLLTE_CommandosVest_armor
+	class JMSLLTE_Commando_Strap_V: JMSLLTE_ComStrap_armor
+	{
+		author = "Queen";
+		scope = 2;
+		displayName = "[HC] Commando Strap";
+		class ItemInfo: ItemInfo
+		{	
+			containerClass = "Supply80";
+		};
+	};  
+	class HC_Commando_StrapBag_V: JMSLLTE_ComStrapBag_armor
+	{
+		author = "Queen";
+		scope = 2;
+		displayName = "[HC] Commando Strap w/ Bag";
+		class ItemInfo: ItemInfo
+		{	
+			containerClass = "Supply80";
+		};
+	};  
+	class HC_Commando_Bag_V: JMSLLTE_ComBag_armor
+	{
+		author = "Queen";
+		scope = 2;
+		displayName = "[HC] Commando Bag";
+		class ItemInfo: ItemInfo
+		{	
+			containerClass = "Supply80";
+		};
+	};  
+	class HC_AmmoStrap_Bag_Brown_V: JMSLLTE_HeavyBandBag_brown_armor
+	{
+		author = "Queen";
+		scope = 2;
+		displayName = "[HC] Commando Bag (Brown)";
+		class ItemInfo: ItemInfo
+		{	
+			containerClass = "Supply80";
+		};
+	};  
+	class HC_AmmoStrap_Bag_Black_V: JMSLLTE_HeavyBandBag_black_armor
+	{
+		author = "Queen";
+		scope = 2;
+		displayName = "[HC] Commando Bag (Black)";
+		class ItemInfo: ItemInfo
+		{	
+			containerClass = "Supply80";
+		};
+	};
+	class HC_AmmoStrap_Black_V: JMSLLTE_HeavyBand_black_armor
+	{
+		author = "Queen";
+		scope = 2;
+		displayName = "[HC] Ammo Strap (Black)";
+		class ItemInfo: ItemInfo
+		{	
+			containerClass = "Supply80";
+		};
+	};
+	class HC_AmmoStrap_Brown_V: JMSLLTE_HeavyBand_brown_armor
+	{
+		author = "Queen";
+		scope = 2;
+		displayName = "[HC] Ammo Strap (Brown)";
+		class ItemInfo: ItemInfo
+		{	
+			containerClass = "Supply80";
+		};
+	};
+	class HC_AmmoStrap_Alt_Black_V: JMSLLTE_HeavyBand2_black_armor
+	{
+		author = "Queen";
+		scope = 2;
+		displayName = "[HC] Alt Ammo Strap (Black)";
+		class ItemInfo: ItemInfo
+		{	
+			containerClass = "Supply80";
+		};
+	};
+	class HC_AmmoStrap_Alt_Brown_V: JMSLLTE_HeavyBand2_brown_armor
+	{
+		author = "Queen";
+		scope = 2;
+		displayName = "[HC] Alt Ammo Strap (Brown)";
+		class ItemInfo: ItemInfo
+		{	
+			containerClass = "Supply80";
+		};
+	};
+	class HC_Pathfinder_Bag_V: JMSLLTE_PathfinderBags_armor
+	{
+		author = "Queen";
+		scope = 2;
+		displayName = "[HC] Pathfinder Bag";
+		class ItemInfo: ItemInfo
+		{	
+			containerClass = "Supply80";
+		};
+	};
+	class HC_Pathfinder_Strap_V: JMSLLTE_PathfinderVest_armor
+	{
+		author = "Queen";
+		scope = 2;
+		displayName = "[HC] Pathfinder Strap";
+		class ItemInfo: ItemInfo
+		{	
+			containerClass = "Supply80";
+		};
+	};
+	class HC_Pathfinder_Belt_V: JMSLLTE_PathfinderBelt_armor
+	{
+		author = "Queen";
+		scope = 2;
+		displayName = "[HC] Commando Belt";
+		class ItemInfo: ItemInfo
+		{	
+			containerClass = "Supply80";
+		};
+	};
+	class HC_Commando_Belt_Snow_V: JMSLLTE_SnowCommandoBelt_armor
+	{
+		author = "Queen";
+		scope = 2;
+		displayName = "[HC] Commando Belt (Snow)";
+		class ItemInfo: ItemInfo
+		{	
+			containerClass = "Supply80";
+		};
+	};
+	class HC_Commando_Strap_V: JMSLLTE_CommandosStrip_armor
+	{
+		author = "Queen";
+		scope = 2;
+		displayName = "[HC] Commando Strap";
+		class ItemInfo: ItemInfo
+		{	
+			containerClass = "Supply80";
+		};
+	};
+	class HC_Commando_Strap_Light_V: JMSLLTE_CommandosStripL_armor
+	{
+		author = "Queen";
+		scope = 2;
+		displayName = "[HC] Commando Strap (Light)";
+		class ItemInfo: ItemInfo
+		{	
+			containerClass = "Supply80";
+		};
+	};
+	class HC_Commando_Alt_V: JMSLLTE_CommandosVest2_armor
+	{
+		author = "Queen";
+		scope = 2;
+		displayName = "[HC] Alt Commando Vest";
+		class ItemInfo: ItemInfo
+		{	
+			containerClass = "Supply80";
+		};
+	};
+	class HC_Commando_Light_V: JMSLLTE_CommandosVestL_armor
+	{
+		author = "Queen";
+		scope = 2;
+		displayName = "[HC] Commando Vest (Light)";
+		class ItemInfo: ItemInfo
+		{	
+			containerClass = "Supply80";
+		};
+	};
+	class HC_Pilot_XWing_V: JMSLLTE_PilotBreather_xwing
+	{
+		author = "Queen";
+		scope = 2;
+		displayName = "[HC] X-Wing Pilot Vest";
+		class ItemInfo: ItemInfo
+		{	
+			containerClass = "Supply80";
+		};
+	};
+	class HC_Navy_Strap_V: JMSLLTE_NavytrooperStrip_armor
+	{
+		author = "Queen";
+		scope = 2;
+		displayName = "[HC] Navy Trooper Strap";
+		class ItemInfo: ItemInfo
+		{	
+			containerClass = "Supply80";
+		};
+	};
+	class HC_Navy_Holster_V: JMSLLTE_NavytrooperHolster_armor
+	{
+		author = "Queen";
+		scope = 2;
+		displayName = "[HC] Navy Troooper Holster";
+		class ItemInfo: ItemInfo
+		{	
+			containerClass = "Supply80";
+		};
+	};
+	class HC_Commando_V: JMSLLTE_CommandosVest_armor
 	{
 		author = "Queen";
 		scope = 2;
 		displayName = "[HC] Commando Vest";
+		class ItemInfo: ItemInfo
+		{	
+			containerClass = "Supply80";
+		};
 	};
 	
 
@@ -234,7 +413,7 @@ class CfgVehicles
 		linkedItems[] = 
 		{
 			"HC_Commando_Helmet_Endor",
-			"HC_Commando_Vest_1",
+			"HC_Commando_V",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -282,7 +461,7 @@ class CfgVehicles
 		linkedItems[] = 
 		{
 			"HC_Commando_Helmet_Endor",
-			"HC_Commando_Vest_1",
+			"HC_Commando_V",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -328,7 +507,7 @@ class CfgVehicles
 		linkedItems[] = 
 		{
 			"HC_Medical_Helmet_Endor",
-			"HC_Commando_Vest_1",
+			"HC_Commando_V",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
@@ -339,7 +518,7 @@ class CfgVehicles
 		respawnLinkedItems[] =
 		{
 			"HC_Medical_Helmet_Endor",
-			"HC_Commando_Vest_1",
+			"HC_Commando_V",
 			"ItemMap",
 			"ItemCompass",
 			"ItemWatch",
