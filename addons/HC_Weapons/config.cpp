@@ -24,7 +24,9 @@ class CfgPatches
 		{
 			"HC_Magazine_Core",
 			"HC_Magazine_A280_Uni",
-			"HC_Magazine_A300_Uni"
+			"HC_Magazine_A300_Uni",
+			"HC_RPS_Mag",
+			"HC_RPS_Mag_HE"
 		};
     };
 };
@@ -40,6 +42,8 @@ class CfgWeapons
 	class JMSLLTE_a280cr;
 	class JMSLLTE_a300;
 	class JMSLLTE_a300c;
+	class JMSLLTE_RPS10_launcher;
+	//Rifles
 	class HC_a280: JMSLLTE_a280
 	{
 		author = "Queen";
@@ -95,11 +99,25 @@ class CfgWeapons
 		};
 	};
 
+
+	//Launchers
+	class HC_RPS10: JMSLLTE_RPS10_launcher
+	{
+		author = "Queen";
+		displayName = "[HC] RPS-10 Launcher";
+		magazines[] =
+		{
+			"HC_RPS_Mag",
+			"HC_RPS_Mag_HE"
+		};
+	};
 };
 
 class CfgAmmo
 {
 	class JLTS_bullet_rifle_red;
+	class JMSLLTE_RPS10_Ammo;
+	class JMSLLTE_RPS10_HE_Ammo;
 	class HC_Ammo_Core: JLTS_bullet_rifle_red
     {
         visibleFire=5;
@@ -249,6 +267,20 @@ class CfgAmmo
 			distance=1;
 		};
 	};
+	class HC_RPS_Ammo: JMSLLTE_RPS10_Ammo
+	{
+		scope = 2;
+		allowAgainstInfantry=1;
+		thrust=0.3;
+		maxSpeed = 280;
+	};
+	class HC_RPS_Ammo_HE: JMSLLTE_RPS10_HE_Ammo
+	{
+		scope = 2;
+		allowAgainstInfantry=1;
+		thrust=0.3;
+		maxSpeed = 280;
+	};
 };
 
 class CfgMagazines
@@ -260,6 +292,8 @@ class CfgMagazines
 	class CA_LauncherMagazine: CA_Magazine
 	{
 	};
+	class JMSLLTE_RPS10_Mag;
+	class JMSLLTE_RPS10_HE_Mag;
     class HC_Magazine_Core: CA_Magazine
     {
         author="Queen";
@@ -304,5 +338,14 @@ class CfgMagazines
 		descriptionShort="25rnd A300 Magazine.";
         displayNameShort="25rnd A300.";
 	};
-	
+	class HC_RPS_Mag: JMSLLTE_RPS10_Mag
+	{
+		displayName = "RPS-10 Rocket";
+		initSpeed = "280";
+	};
+	class HC_RPS_Mag_HE: JMSLLTE_RPS10_Mag
+	{
+		displayName = "RPS-10 Rocket HE";
+		initSpeed = "280";
+	};
 };
