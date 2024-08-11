@@ -2,7 +2,7 @@ class CfgPatches
 {
     class HC_Equipment
     {
-        author= "HC Aux Team"
+        author= "HC Aux Team";
         requiredAddos[]=
         {
 			"JMSLLTE_scum"
@@ -12,7 +12,28 @@ class CfgPatches
 			"HC_Commando_Helmet_Endor",
 			"HC_Commando_Helmet_Cloud",
 			"HC_Commando_Helmet_Desert",
-			"HC_Commando_Helmet_Black"
+			"HC_Commando_Helmet_Black",
+			"HC_Commando_Belt_V",
+			"HC_Commando_Strap_V",
+			"HC_Commando_StrapBag_V",
+			"HC_Commando_Bag_V",
+			"HC_AmmoStrap_Bag_Brown_V",
+			"HC_AmmoStrap_Bag_Black_V",
+			"HC_AmmoStrap_Black_V",
+			"HC_AmmoStrap_Brown_V",
+			"HC_AmmoStrap_Alt_Black_V",
+			"HC_AmmoStrap_Alt_Brown_V",
+			"HC_Pathfinder_Bag_V",
+			"HC_Pathfinder_Strap_V",
+			"HC_Pathfinder_Belt_V",
+			"HC_Commando_Belt_Snow_V",
+			"HC_Commando_Strap_Light_V",
+			"HC_Commando_Alt_V",
+			"HC_Commando_Light_V",
+			"HC_Pilot_XWing_V",
+			"HC_Navy_Strap_V",
+			"HC_Navy_Holster_V",
+			"HC_Commando_V"
         };
         units[]=
         {
@@ -102,6 +123,28 @@ class CfgWeapons
 
 	//Vests
 	//the horror of ace compats
+	class JMSLLTE_CommandoBelt_armor;
+	class JMSLLTE_ComStrap_armor;
+	class JMSLLTE_ComStrapBag_armor;
+	class JMSLLTE_ComBag_armor;
+	class JMSLLTE_HeavyBandBag_brown_armor;
+	class JMSLLTE_HeavyBandBag_black_armor;
+	class JMSLLTE_HeavyBand_black_armor;
+	class JMSLLTE_HeavyBand_brown_armor;
+	class JMSLLTE_HeavyBand2_black_armor;
+	class JMSLLTE_HeavyBand2_brown_armor;
+	class JMSLLTE_PathfinderBags_armor;
+	class JMSLLTE_PathfinderVest_armor;
+	class JMSLLTE_PathfinderBelt_armor;
+	class JMSLLTE_SnowCommandoBelt_armor;
+	class JMSLLTE_CommandosStrip_armor;
+	class JMSLLTE_CommandosStripL_armor;
+	class JMSLLTE_CommandosVest2_armor;
+	class JMSLLTE_CommandosVestL_armor;
+	class JMSLLTE_PilotBreather_xwing;
+	class JMSLLTE_NavytrooperStrip_armor;
+	class JMSLLTE_NavytrooperHolster_armor;
+	class JMSLLTE_CommandosVest_armor;
 	class HC_Commando_Belt_V: JMSLLTE_CommandoBelt_armor
 	{
 		author = "Queen";
@@ -112,7 +155,7 @@ class CfgWeapons
 			containerClass = "Supply80";
 		};
 	};   
-	class JMSLLTE_Commando_Strap_V: JMSLLTE_ComStrap_armor
+	class HC_Commando_Strap_V: JMSLLTE_ComStrap_armor
 	{
 		author = "Queen";
 		scope = 2;
@@ -242,16 +285,6 @@ class CfgWeapons
 			containerClass = "Supply80";
 		};
 	};
-	class HC_Commando_Strap_V: JMSLLTE_CommandosStrip_armor
-	{
-		author = "Queen";
-		scope = 2;
-		displayName = "[HC] Commando Strap";
-		class ItemInfo: ItemInfo
-		{	
-			containerClass = "Supply80";
-		};
-	};
 	class HC_Commando_Strap_Light_V: JMSLLTE_CommandosStripL_armor
 	{
 		author = "Queen";
@@ -347,6 +380,8 @@ class CfgVehicles
 	//Backpacks
 	class JMSLLTE_back_rebpack_v1_black;
 	class JMSLLTE_back_rebpack_v1_wood;
+	class Rebel_Endor_Bag;
+	class Rebel_Endor_Bag_Black;
 	//class HC_Rebel_Backpack_Black: JMSLLTE_back_rebpack_v1_black
 	// {
 	// 	author = "Queen";
@@ -362,12 +397,21 @@ class CfgVehicles
 	// 	};
 	// };
 
-	class HC_Rebel_Backpack_Wood: JMSLLTE_back_rebpack_v1_wood
+	class HC_Rebel_Backpack_Wood: Rebel_Endor_Bag
 	{
 		author = "Queen";
 		scope = 2;
 		displayName = "[HC] Rebel Backpack (Wood)";
+		maximumLoad = 200;
 	};
+	class HC_Rebel_Backpack_Black: Rebel_Endor_Bag_Black
+	{
+		author = "Queen";
+		scope = 2;
+		displayName = "[HC] Rebel Backpack (Wood)";
+		maximumLoad = 200;
+	};
+
 	//Uniforms
 	class JMSLLTE_ScumTroopHeavy_wood_F_CombatUniform; //Raincoats
 	class JMSLLTE_ScumTroopHeavy_brown_F_CombatUniform;
