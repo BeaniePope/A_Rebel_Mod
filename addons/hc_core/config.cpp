@@ -54,7 +54,8 @@ class cfgWeapons
 		picture = "";
 		tf_prototype = 1;
 		tf_range = 5000;
-		tf_dialog = "commlink_radio_dialog";
+		tf_dialog = "anprc152_radio_dialog";
+		//tf_dialog = "commlink_radio_dialog";
 		tf_encryptionCode = "tf_east_radio_code";
 		tf_dialogUpdate = "call TFAR_fnc_updateSWDialogToChannel;";
 		tf_subtype = "digital";
