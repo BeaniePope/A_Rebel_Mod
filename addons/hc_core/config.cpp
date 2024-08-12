@@ -24,7 +24,6 @@ class CfgPatches
 ///TFAR Definitions
 #include "TFAR_Radios\uiDefines.hpp"
 #include "TFAR_Radios\ui\hclr.hpp"
-#include "TFAR_Radios\ui\commlink.hpp"
 
 
 class CfgEditorCategories
@@ -45,26 +44,33 @@ class CfgEditorSubcategories
 
 class cfgWeapons
 {
-	class TFAR_anprc152;
-	class HC_Commlink: TFAR_anprc152 {
+	class ItemRadio;
+	class HC_Commlink: ItemRadio {
 		author = "Queen";
 		displayName = "[HC] Commlink";
 		//descriptionShort = CSTRING(ANPRC152_Desc);
 		scope = 2;
 		scopeCurator = 2;
+<<<<<<< HEAD
 		scopeArsenal=2;
 		//model = "";
 		//picture = "";
+=======
+		model = "";
+		picture = "";
+>>>>>>> parent of a774c73 (broke tfar)
 		tf_prototype = 1;
 		//tf_radio = 1;
 		tf_range = 5000;
-		tf_dialog = "commlink_radio_dialog";
+		tf_dialog = "anprc152_radio_dialog";
+		//tf_dialog = "commlink_radio_dialog";
 		tf_encryptionCode = "tf_east_radio_code";
 		tf_dialogUpdate = "call TFAR_fnc_updateSWDialogToChannel;";
 		tf_subtype = "digital";
-		tf_parent = "HC_Commlink";
+		tf_parent = "TFAR_anprc152";
 		tf_additional_channel = 1;
 	};
+<<<<<<< HEAD
 	class HC_Commlink_1: HC_Commlink
 	{
 		displayName = "[HC] Commlink 1";
@@ -10066,6 +10072,9 @@ class cfgWeapons
 		tf_radio = 1;
 	};
 
+=======
+	
+>>>>>>> parent of a774c73 (broke tfar)
 };
 
 class CfgVehicles
