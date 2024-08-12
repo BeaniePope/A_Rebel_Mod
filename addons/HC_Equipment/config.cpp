@@ -93,6 +93,11 @@ class CfgWeapons
 			"HC_Equipment\data\helmets\HC_commando_helmet_Black_co.paa"
 		};
 	};
+	class JMSLLTE_Commando_green_helmet;
+	class HC_Commando_Helmet_Wood: JMSLLTE_Commando_green_helmet
+	{
+		displayName = "[HC] Commando Helmet (Wood)";
+	};
 
 	class HC_Commando_Helmet_Empty: HC_Commando_Helmet_Endor
 	{
@@ -416,20 +421,6 @@ class CfgVehicles
 	class JMSLLTE_back_rebpack_v1_wood;
 	class Rebel_Endor_Bag;
 	class Rebel_Endor_Bag_Black;
-	//class HC_Rebel_Backpack_Black: JMSLLTE_back_rebpack_v1_black
-	// {
-	// 	author = "Queen";
-	// 	scope = 2;
-	// 	displayName = "[HC] Rebel Backpack (Black)";
-	// 	hiddenSelectionsTextures[] = 
-	// 	{
-	// 		"\HC_Equipment\data\backpacks\HC_Rebel_Backpack_Black_co.paa"
-	// 	};
-	// 	hiddenSelectionsMaterials[] =
-	// 	{
-	// 		"\HC_Equipment\data\HC_Rebel_Backpack_Black.rvmat"
-	// 	};
-	// };
 
 	class HC_Rebel_Backpack_Wood: Rebel_Endor_Bag
 	{
