@@ -13,27 +13,6 @@ class CfgPatches
 			"HC_Commando_Helmet_Cloud",
 			"HC_Commando_Helmet_Desert",
 			"HC_Commando_Helmet_Black",
-			"HC_Commando_Belt_V",
-			"HC_Commando_Strap_V",
-			"HC_Commando_StrapBag_V",
-			"HC_Commando_Bag_V",
-			"HC_AmmoStrap_Bag_Brown_V",
-			"HC_AmmoStrap_Bag_Black_V",
-			"HC_AmmoStrap_Black_V",
-			"HC_AmmoStrap_Brown_V",
-			"HC_AmmoStrap_Alt_Black_V",
-			"HC_AmmoStrap_Alt_Brown_V",
-			"HC_Pathfinder_Bag_V",
-			"HC_Pathfinder_Strap_V",
-			"HC_Pathfinder_Belt_V",
-			"HC_Commando_Belt_Snow_V",
-			"HC_Commando_Strap_Light_V",
-			"HC_Commando_Alt_V",
-			"HC_Commando_Light_V",
-			"HC_Pilot_XWing_V",
-			"HC_Navy_Strap_V",
-			"HC_Navy_Holster_V",
-			"HC_Commando_V"
         };
         units[]=
         {
@@ -76,6 +55,7 @@ class CfgEditorSubcategories
 };
 class CfgWeapons
 {
+	class VestItem;
 	class ItemInfo;
 	//Helmets
 	class JMSLLTE_Commando_endor_helmet;
@@ -150,7 +130,7 @@ class CfgWeapons
 		author = "Queen";
 		scope = 2;
 		displayName = "[HC] Commando Belt";
-		class ItemInfo: ItemInfo
+		class iteminfo: VestItem
 		{	
 			uniformModel = "\JMSLLTE_scum\vests\Commando_vest1.p3d";
 			containerClass = "Supply80";
@@ -162,7 +142,7 @@ class CfgWeapons
 		author = "Queen";
 		scope = 2;
 		displayName = "[HC] Commando Strap";
-		class ItemInfo: ItemInfo
+		class iteminfo: VestItem
 		{	
 			uniformModel= "\JMSLLTE_scum\vests\TrooperCom_vest.p3d";
 			containerClass = "Supply80";
@@ -174,7 +154,7 @@ class CfgWeapons
 		author = "Queen";
 		scope = 2;
 		displayName = "[HC] Commando Strap w/ Bag";
-		class ItemInfo: ItemInfo
+		class iteminfo: VestItem
 		{	
 			uniformModel="\JMSLLTE_scum\vests\TrooperCom_vestBag.p3d";
 			containerClass = "Supply80";
@@ -186,7 +166,7 @@ class CfgWeapons
 		author = "Queen";
 		scope = 2;
 		displayName = "[HC] Commando Bag";
-		class ItemInfo: ItemInfo
+		class iteminfo: VestItem
 		{	
 			uniformModel="\JMSLLTE_scum\vests\TrooperCom_Bag.p3d";
 			containerClass = "Supply80";
@@ -198,7 +178,7 @@ class CfgWeapons
 		author = "Queen";
 		scope = 2;
 		displayName = "[HC] Commando Bag (Brown)";
-		class ItemInfo: ItemInfo
+		class iteminfo: VestItem
 		{	
 			uniformModel="\JMSLLTE_scum\vests\TrooperHeavy.p3d";
 			containerClass = "Supply80";
@@ -210,7 +190,7 @@ class CfgWeapons
 		author = "Queen";
 		scope = 2;
 		displayName = "[HC] Commando Bag (Black)";
-		class ItemInfo: ItemInfo
+		class iteminfo: VestItem
 		{	
 			uniformModel="\JMSLLTE_scum\vests\TrooperHeavy.p3d";
 			containerClass = "Supply80";
@@ -222,7 +202,7 @@ class CfgWeapons
 		author = "Queen";
 		scope = 2;
 		displayName = "[HC] Ammo Strap (Black)";
-		class ItemInfo: ItemInfo
+		class iteminfo: VestItem
 		{	
 			uniformModel="\JMSLLTE_scum\vests\TrooperHeavy_band.p3d";
 			containerClass = "Supply80";
@@ -234,7 +214,7 @@ class CfgWeapons
 		author = "Queen";
 		scope = 2;
 		displayName = "[HC] Ammo Strap (Brown)";
-		class ItemInfo: ItemInfo
+		class iteminfo: VestItem
 		{	
 			uniformModel="\JMSLLTE_scum\vests\TrooperHeavy_band.p3d";
 			containerClass = "Supply80";
@@ -246,7 +226,7 @@ class CfgWeapons
 		author = "Queen";
 		scope = 2;
 		displayName = "[HC] Alt Ammo Strap (Black)";
-		class ItemInfo: ItemInfo
+		class iteminfo: VestItem
 		{	
 			uniformModel="\JMSLLTE_scum\vests\TrooperHeavy_band2.p3d";
 			containerClass = "Supply80";
@@ -258,7 +238,7 @@ class CfgWeapons
 		author = "Queen";
 		scope = 2;
 		displayName = "[HC] Alt Ammo Strap (Brown)";
-		class ItemInfo: ItemInfo
+		class iteminfo: VestItem
 		{	
 			uniformModel="\JMSLLTE_scum\vests\TrooperHeavy_band2.p3d";
 			containerClass = "Supply80";
@@ -270,7 +250,7 @@ class CfgWeapons
 		author = "Queen";
 		scope = 2;
 		displayName = "[HC] Pathfinder Bag";
-		class ItemInfo: ItemInfo
+		class iteminfo: VestItem
 		{	
 			uniformModel="\JMSLLTE_scum\vests\PathfinderBags.p3d";
 			containerClass = "Supply80";
@@ -282,7 +262,7 @@ class CfgWeapons
 		author = "Queen";
 		scope = 2;
 		displayName = "[HC] Pathfinder Strap";
-		class ItemInfo: ItemInfo
+		class iteminfo: VestItem
 		{	
 			uniformModel="\JMSLLTE_scum\vests\PathfinderGren.p3d";
 			containerClass = "Supply80";
@@ -294,7 +274,7 @@ class CfgWeapons
 		author = "Queen";
 		scope = 2;
 		displayName = "[HC] Commando Belt";
-		class ItemInfo: ItemInfo
+		class iteminfo: VestItem
 		{	
 			uniformModel="\JMSLLTE_scum\vests\PathfinderVest.p3d";
 			containerClass = "Supply80";
@@ -306,7 +286,7 @@ class CfgWeapons
 		author = "Queen";
 		scope = 2;
 		displayName = "[HC] Commando Belt (Snow)";
-		class ItemInfo: ItemInfo
+		class iteminfo: VestItem
 		{	
 			uniformModel="\JMSLLTE_scum\vests\Snow_vest1.p3d";
 			containerClass = "Supply80";
@@ -318,7 +298,7 @@ class CfgWeapons
 		author = "Queen";
 		scope = 2;
 		displayName = "[HC] Commando Strap";
-		class ItemInfo: ItemInfo
+		class iteminfo: VestItem
 		{	
 			uniformModel="\JMSLLTE_scum\vests\Alcommandos_strip.p3d";
 			containerClass = "Supply80";
@@ -330,7 +310,7 @@ class CfgWeapons
 		author = "Queen";
 		scope = 2;
 		displayName = "[HC] Commando Strap (Light)";
-		class ItemInfo: ItemInfo
+		class iteminfo: VestItem
 		{	
 			uniformModel="\JMSLLTE_scum\vests\Alcommandos_strip.p3d";
 			containerClass = "Supply80";
@@ -342,7 +322,7 @@ class CfgWeapons
 		author = "Queen";
 		scope = 2;
 		displayName = "[HC] Alt Commando Vest";
-		class ItemInfo: ItemInfo
+		class iteminfo: VestItem
 		{	
 			uniformModel="\JMSLLTE_scum\vests\Alcommandos_vest2.p3d";
 			containerClass = "Supply80";
@@ -354,7 +334,7 @@ class CfgWeapons
 		author = "Queen";
 		scope = 2;
 		displayName = "[HC] Commando Vest (Light)";
-		class ItemInfo: ItemInfo
+		class iteminfo: VestItem
 		{	
 			uniformModel="\JMSLLTE_scum\vests\Alcommandos_vestL.p3d";
 			containerClass = "Supply80";
@@ -366,7 +346,7 @@ class CfgWeapons
 		author = "Queen";
 		scope = 2;
 		displayName = "[HC] X-Wing Pilot Vest";
-		class ItemInfo: ItemInfo
+		class iteminfo: VestItem
 		{	
 			uniformModel="\JMSLLTE_scum\vests\Pilot_breather.p3d";
 			containerClass = "Supply80";
@@ -378,7 +358,7 @@ class CfgWeapons
 		author = "Queen";
 		scope = 2;
 		displayName = "[HC] Navy Trooper Strap";
-		class ItemInfo: ItemInfo
+		class iteminfo: VestItem
 		{	
 			uniformModel="\JMSLLTE_scum\vests\Navytrooper_vest.p3d";
 			containerClass = "Supply80";
@@ -390,7 +370,7 @@ class CfgWeapons
 		author = "Queen";
 		scope = 2;
 		displayName = "[HC] Navy Troooper Holster";
-		class ItemInfo: ItemInfo
+		class iteminfo: VestItem
 		{	
 			uniformModel="\JMSLLTE_scum\vests\Navytrooper_holster.p3d";
 			containerClass = "Supply80";
@@ -402,7 +382,7 @@ class CfgWeapons
 		author = "Queen";
 		scope = 2;
 		displayName = "[HC] Commando Vest";
-		class ItemInfo: ItemInfo
+		class iteminfo: VestItem
 		{	
 			uniformModel="\JMSLLTE_scum\vests\Alcommandos_vest.p3d";
 			containerClass = "Supply80";
