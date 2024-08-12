@@ -61,6 +61,7 @@ class cfgWeapons
 		tf_parent = "TFAR_anprc152";
 		tf_additional_channel = 1;
 	};
+	
 };
 
 class CfgVehicles
