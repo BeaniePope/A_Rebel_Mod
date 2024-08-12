@@ -51,14 +51,11 @@ class cfgWeapons
 		//descriptionShort = CSTRING(ANPRC152_Desc);
 		scope = 2;
 		scopeCurator = 2;
-<<<<<<< HEAD
 		scopeArsenal=2;
 		//model = "";
 		//picture = "";
-=======
 		model = "";
 		picture = "";
->>>>>>> parent of a774c73 (broke tfar)
 		tf_prototype = 1;
 		//tf_radio = 1;
 		tf_range = 5000;
@@ -70,7 +67,6 @@ class cfgWeapons
 		tf_parent = "TFAR_anprc152";
 		tf_additional_channel = 1;
 	};
-<<<<<<< HEAD
 	class HC_Commlink_1: HC_Commlink
 	{
 		displayName = "[HC] Commlink 1";
@@ -10072,9 +10068,7 @@ class cfgWeapons
 		tf_radio = 1;
 	};
 
-=======
 	
->>>>>>> parent of a774c73 (broke tfar)
 };
 
 class CfgVehicles
