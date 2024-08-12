@@ -190,10 +190,10 @@ class commlink_radio_dialog
     class next_channel: RscButton
     {
         idc = 1611;
-        x = 0.485312 * safezoneW + safezoneX;
-        y = 0.5658 * safezoneH + safezoneY;
-        w = 0.0195833 * safezoneW;
-        h = 0.0376 * safezoneH;
+        x = 0.372708 * safezoneW + safezoneX;
+		y = 0.4624 * safezoneH + safezoneY;
+		w = 0.029375 * safezoneW;
+		h = 0.0376 * safezoneH;
         tooltip = "Next Channel";
         action = "[1, false] call TFAR_fnc_setChannelViaDialog;";
     };
