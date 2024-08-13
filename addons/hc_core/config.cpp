@@ -42,6 +42,19 @@ class CfgEditorSubcategories
 	};
 };
 
+class ACEX_Fortify_Presets
+{
+	class TAG_MyPreset
+	{
+		displayName = "BAGZ";
+		objects[] = {
+			{"Land_Plank_01_4m_F"},
+			{"Land_BagFence_Long_F", 7},
+			{"Land_BagFence_Short_F", 5},
+			{"Land_BagFence_Round_F", 5},
+		};
+	}
+};
 class cfgWeapons
 {
 	class ItemRadio;
