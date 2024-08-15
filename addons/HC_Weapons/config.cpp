@@ -272,14 +272,14 @@ class CfgAmmo
 		scope = 2;
 		allowAgainstInfantry=1;
 		thrust=0.3;
-		maxSpeed = 280;
+		maxSpeed = 300;
 	};
 	class HC_RPS_Ammo_HE: JMSLLTE_RPS10_HE_Ammo
 	{
 		scope = 2;
 		allowAgainstInfantry=1;
 		thrust=0.3;
-		maxSpeed = 280;
+		maxSpeed = 300;
 	};
 };
 
@@ -341,11 +341,11 @@ class CfgMagazines
 	class HC_RPS_Mag: JMSLLTE_RPS10_Mag
 	{
 		displayName = "RPS-10 Rocket";
-		initSpeed = "280";
+		initSpeed = "300";
 	};
 	class HC_RPS_Mag_HE: JMSLLTE_RPS10_Mag
 	{
 		displayName = "RPS-10 Rocket HE";
-		initSpeed = "280";
+		initSpeed = "300";
 	};
 };

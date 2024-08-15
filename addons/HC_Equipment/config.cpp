@@ -79,7 +79,7 @@ class CfgWeapons
 	};
 	class HC_Commando_Helmet_Desert: HC_Commando_Helmet_Endor
 	{
-		displayName = "[HC] Commando Helmet (Green)";
+		displayName = "[HC] Commando Helmet (Desert)";
 		hiddenSelectionsTextures[]=
 		{
 			"HC_Equipment\data\helmets\HC_commando_helmet_Desert_co.paa"
