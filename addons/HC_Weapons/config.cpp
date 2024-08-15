@@ -184,7 +184,7 @@ class CfgAmmo
     };
 	class HC_Ammo_792: HC_Ammo_Core
     {
-        hit=50;
+        hit=40;
 		//indirectHit = 8;
 		ACE_caliber=8.22;
         ACE_bulletLength = 40;  // Bullet Length in mm
@@ -197,7 +197,7 @@ class CfgAmmo
 		suppressionRadiusBulletClose=8;
 		suppressionRadiusHit=8;
 		audiblefire=35;
-        caliber=1.5;
+        caliber=1.2;
 	};
 	class HC_Ammo_85: HC_Ammo_Core
     {
@@ -215,7 +215,7 @@ class CfgAmmo
 		suppressionRadiusBulletClose=6;
 		suppressionRadiusHit=8;
 		typicalSpeed=1055;
-		caliber=1.8;
+		caliber=1.5;
     };
 	class HC_Ammo_338: HC_Ammo_Core
     {
