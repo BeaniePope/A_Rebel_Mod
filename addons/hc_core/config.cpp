@@ -24,6 +24,7 @@ class CfgPatches
 ///TFAR Definitions
 #include "TFAR_Radios\uiDefines.hpp"
 #include "TFAR_Radios\ui\hclr.hpp"
+#include "TFAR_Radios\ui\commlink.hpp"
 
 
 class CfgEditorCategories
@@ -72,6 +73,7 @@ class CfgWeapons
 		tf_encryptionCode = "tf_east_radio_code";
 		tf_dialogUpdate = "call TFAR_fnc_updateSWDialogToChannel;";
 		tf_subtype = "digital";
+		tf_parent = "HC_Commlink";
 		tf_additional_channel = 1;
 	};
 	class HC_Commlink_1: HC_Commlink

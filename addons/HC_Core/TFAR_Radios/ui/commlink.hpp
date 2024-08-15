@@ -214,7 +214,7 @@ class commlink_radio_dialog
 		y = 0.4624 * safezoneH + safezoneY;
 		w = 0.029375 * safezoneW;
 		h = 0.0846 * safezoneH;
-        tooltip = "Volume Up | Volume Down";
+        tooltip = "Volume Down | Volume Up";
         onMouseButtonDown = "[_this select 1, false] call TFAR_fnc_setVolumeViaDialog;";
     };
 
