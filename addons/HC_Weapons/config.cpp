@@ -105,6 +105,7 @@ class CfgWeapons
 	{
 		author = "Queen";
 		displayName = "[HC] RPS-10 Launcher";
+		modelOptics="\A3\Weapons_F\acc\reticle_RPG_F";
 		magazines[] =
 		{
 			"HC_RPS_Mag",
@@ -341,11 +342,11 @@ class CfgMagazines
 	class HC_RPS_Mag: JMSLLTE_RPS10_Mag
 	{
 		displayName = "RPS-10 Rocket";
-		initSpeed = "300";
+		initSpeed = "500";
 	};
 	class HC_RPS_Mag_HE: JMSLLTE_RPS10_Mag
 	{
 		displayName = "RPS-10 Rocket HE";
-		initSpeed = "300";
+		initSpeed = "500";
 	};
 };

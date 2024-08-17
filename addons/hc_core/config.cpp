@@ -56,6 +56,33 @@ class ACEX_Fortify_Presets
 		};
 	};
 };
+
+class CfgFaces
+{
+    class Default;
+    class Man_A3: Default
+    {
+        class Default;
+        class Head_QuarrenPossum: Default
+        {
+            //name="[HC] Possum";
+            displayname="[HC] Possum";
+            identityTypes[]=
+            {
+                "HeadQuarrenPossum"
+            };
+            head="Head_Quarren_head";
+            texture="HC_Core\data\faces\quarren_brown_co.paa";
+            disabled=0;
+            material="\JMSLLTE_scum\head\data\quarren.rvmat";
+            textureHL="HC_Core\data\faces\hl_sullustan_co.paa";
+            materialHL="\A3\Characters_F\Heads\Data\hl_White_bald_muscular.rvmat";
+            textureHL2="HC_Core\data\faces\hl_sullustan_co.paa";
+            materialHL2="\A3\Characters_F\Heads\Data\hl_White_bald_muscular.rvmat";
+        };
+    };
+};
+
 class CfgWeapons
 {
 	class ItemRadio;
