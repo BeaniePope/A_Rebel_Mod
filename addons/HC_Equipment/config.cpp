@@ -420,7 +420,7 @@ class CfgVehicles
 	class JMSLLTE_back_rebpack_v1_black;
 	class JMSLLTE_back_rebpack_v1_wood;
 	class Rebel_Endor_Bag;
-	class Rebel_Endor_Bag_Black;
+	class Black_WM_Rebel_bag;
 
 	class HC_Rebel_Backpack_Wood: Rebel_Endor_Bag
 	{
@@ -429,11 +429,11 @@ class CfgVehicles
 		displayName = "[HC] Rebel Backpack (Wood)";
 		maximumLoad = 200;
 	};
-	class HC_Rebel_Backpack_Black: Rebel_Endor_Bag_Black
+	class HC_Rebel_Backpack_Black: Black_WM_Rebel_bag
 	{
 		author = "Queen";
 		scope = 2;
-		displayName = "[HC] Rebel Backpack (Wood)";
+		displayName = "[HC] Rebel Backpack (Black)";
 		maximumLoad = 200;
 	};
 
