@@ -53,13 +53,73 @@ class CfgEditorSubcategories
 		displayName = "VIPs";
 	};
 };
+
+class XtdGearModels
+{
+	class CfgWeapons 
+	{
+		class HC_Helmet
+		{
+			textureOptionsp[] =  {"texture"};
+			class texture
+			{
+				label = "Textures";
+				values[] = {"GRN", "DSRT", "BLK", "ENDR", "CLOD"};
+				hiddenselection = "Camo";
+				class GRN
+				{
+					texture = "HC_Equipment\data\helmets\HC_commando_helmet_Endor_co.paa";
+				};
+				class ENDR
+				{
+					texture = "HC_Equipment\data\helmets\HC_commando_helmet_Endor_co.paa";
+				};
+				class CLOD 
+				{
+					texture = "HC_Equipment\data\helmets\HC_commando_helmet_Cloud_co.paa";
+				};
+				class DSRT
+				{
+					texture = "HC_Equipment\data\helmets\HC_commando_helmet_Desert_co.paa";
+				};
+				class BLK
+				{
+					texture = "HC_Equipment\data\helmets\HC_commando_helmet_Black_co.paa";
+				};
+
+			};
+		};
+	};
+};
+
 class CfgWeapons
 {
 	class VestItem;
 	class ItemInfo;
 	//Helmets
 	class JMSLLTE_Commando_endor_helmet;
-	class HC_Commando_Helmet_Endor: JMSLLTE_Commando_endor_helmet
+	class HC_Command_Helmet_Base: JMSLLTE_Commando_endor_helmet
+	{
+
+	};
+
+	class HC_Commando_Helmet: HC_Command_Helmet_Base
+	{
+		author = "Queen";
+		scope = 2;
+
+		class XtdGearInfo
+		{
+			model = "HC_Helmet";
+		};
+
+		hiddenSelections[] = 
+		{
+			"Camo"
+		};
+	};
+	
+	class HC_Commando_Helmet_Endor: HC_Command_Helmet_Base
 	{
 		author = "Queen";
 		scope = 2;
@@ -69,7 +129,7 @@ class CfgWeapons
 			"HC_Equipment\data\helmets\HC_commando_helmet_Endor_co.paa"
 		};
 	};
-	class HC_Commando_Helmet_Cloud: HC_Commando_Helmet_Endor
+	class HC_Commando_Helmet_Cloud: HC_Command_Helmet_Base
 	{
 		displayName = "[HC] Commando Helmet (Cloud)";
 		hiddenSelectionsTextures[]=
@@ -77,7 +137,7 @@ class CfgWeapons
 			"HC_Equipment\data\helmets\HC_commando_helmet_Cloud_co.paa"
 		};
 	};
-	class HC_Commando_Helmet_Desert: HC_Commando_Helmet_Endor
+	class HC_Commando_Helmet_Desert: HC_Command_Helmet_Base
 	{
 		displayName = "[HC] Commando Helmet (Desert)";
 		hiddenSelectionsTextures[]=
@@ -85,7 +145,7 @@ class CfgWeapons
 			"HC_Equipment\data\helmets\HC_commando_helmet_Desert_co.paa"
 		};
 	};
-	class HC_Commando_Helmet_Black: HC_Commando_Helmet_Endor
+	class HC_Commando_Helmet_Black: HC_Command_Helmet_Base
 	{
 		displayName = "[HC] Commando Helmet (Black)";
 		hiddenSelectionsTextures[]=
@@ -99,7 +159,7 @@ class CfgWeapons
 		displayName = "[HC] Commando Helmet (Wood)";
 	};
 
-	class HC_Commando_Helmet_Empty: HC_Commando_Helmet_Endor
+	class HC_Commando_Helmet_Empty: HC_Command_Helmet_Base
 	{
 		displayName = "[HC] Commando Helmet (Invisible)";
 		model = "";
@@ -300,11 +360,11 @@ class CfgWeapons
 			mass = 15;
 		};
 	};
-	class HC_Commando_Strap_V: JMSLLTE_CommandosStrip_armor
+	class HC_Commando_Strap_Alt_V: JMSLLTE_CommandosStrip_armor
 	{
 		author = "Queen";
 		scope = 2;
-		displayName = "[HC] Commando Strap";
+		displayName = "[HC] Commando Strap (Alt)";
 		class iteminfo: VestItem
 		{	
 			uniformModel="\JMSLLTE_scum\vests\Alcommandos_strip.p3d";
