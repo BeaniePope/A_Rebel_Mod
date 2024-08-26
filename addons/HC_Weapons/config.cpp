@@ -14,7 +14,8 @@ class CfgPatches
 			"HC_a280c",
 			"HC_a280cr",
 			"HC_A300",
-			"HC_A300c"
+			"HC_A300c",
+			"HC_HH12"
         };
         units[]=
         {
@@ -111,6 +112,13 @@ class CfgWeapons
 			"HC_RPS_Mag",
 			"HC_RPS_Mag_HE"
 		};
+	};
+
+	class HC_HH12: JMSLLTE_HH12_launcher
+	{
+		author = "Queen";
+		displayName = "[HC] HH-12";
+		
 	};
 };
 
