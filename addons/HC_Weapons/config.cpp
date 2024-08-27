@@ -15,7 +15,9 @@ class CfgPatches
 			"HC_a280cr",
 			"HC_A300",
 			"HC_A300c",
+			"HC_EE_3",
 			"HC_HH12"
+
         };
         units[]=
         {
@@ -44,6 +46,7 @@ class CfgWeapons
 	class JMSLLTE_a300;
 	class JMSLLTE_a300c;
 	class JMSLLTE_RPS10_launcher;
+	class JMSLLTE_ee3;
 	//Rifles
 	class HC_a280: JMSLLTE_a280
 	{
@@ -98,6 +101,16 @@ class CfgWeapons
 		{
 			"HC_Magazine_A300_Uni"
 		};
+	};
+	class HC_EE_3: JMSLLTE_ee3
+	{
+		author = "George";
+		displayName = "[HC] EE-3 Blaster Carbine";
+		magazines[]=
+		{
+			"HC_Magazine_"
+		};
+
 	};
 
 
@@ -276,6 +289,7 @@ class CfgAmmo
 			distance=1;
 		};
 	};
+//launcher ammo
 	class HC_RPS_Ammo: JMSLLTE_RPS10_Ammo
 	{
 		scope = 2;
