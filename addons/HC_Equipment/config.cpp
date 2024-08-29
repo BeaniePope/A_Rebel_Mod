@@ -139,7 +139,7 @@ class CfgWeapons
 		class iteminfo: VestItem
 		{
 			uniformModel = "\JMSLLTE_scum_m\vests\Commando_vest1.p3d";
-			containerClass = "Supply80";
+			containerClass = "Supply120";
 			mass = 15;
 		};
 	};   
@@ -151,7 +151,7 @@ class CfgWeapons
 		class iteminfo: VestItem
 		{	
 			uniformModel= "\JMSLLTE_scum_m\vests\TrooperCom_vest.p3d";
-			containerClass = "Supply80";
+			containerClass = "Supply120";
 			mass = 15;
 		};
 	};  
@@ -163,7 +163,7 @@ class CfgWeapons
 		class iteminfo: VestItem
 		{	
 			uniformModel="\JMSLLTE_scum_m\vests\TrooperCom_vestBag.p3d";
-			containerClass = "Supply80";
+			containerClass = "Supply120";
 			mass = 15;
 		};
 	};  
@@ -175,7 +175,7 @@ class CfgWeapons
 		class iteminfo: VestItem
 		{	
 			uniformModel="\JMSLLTE_scum_m\vests\TrooperCom_Bag.p3d";
-			containerClass = "Supply80";
+			containerClass = "Supply120";
 			mass = 15;
 		};
 	};  
@@ -187,7 +187,7 @@ class CfgWeapons
 		class iteminfo: VestItem
 		{	
 			uniformModel="\JMSLLTE_scum_m\vests\TrooperHeavy.p3d";
-			containerClass = "Supply80";
+			containerClass = "Supply120";
 			mass = 15;
 		};
 	};  
@@ -199,7 +199,7 @@ class CfgWeapons
 		class iteminfo: VestItem
 		{	
 			uniformModel="\JMSLLTE_scum_m\vests\TrooperHeavy.p3d";
-			containerClass = "Supply80";
+			containerClass = "Supply120";
 			mass = 15;
 		};
 	};
@@ -211,7 +211,7 @@ class CfgWeapons
 		class iteminfo: VestItem
 		{	
 			uniformModel="\JMSLLTE_scum_m\vests\TrooperHeavy_band.p3d";
-			containerClass = "Supply80";
+			containerClass = "Supply120";
 			mass = 15;
 		};
 	};
@@ -223,7 +223,7 @@ class CfgWeapons
 		class iteminfo: VestItem
 		{	
 			uniformModel="\JMSLLTE_scum_m\vests\TrooperHeavy_band.p3d";
-			containerClass = "Supply80";
+			containerClass = "Supply120";
 			mass = 15;
 		};
 	};
@@ -235,7 +235,7 @@ class CfgWeapons
 		class iteminfo: VestItem
 		{	
 			uniformModel="\JMSLLTE_scum_m\vests\TrooperHeavy_band2.p3d";
-			containerClass = "Supply80";
+			containerClass = "Supply120";
 			mass = 15;
 		};
 	};
@@ -247,7 +247,7 @@ class CfgWeapons
 		class iteminfo: VestItem
 		{	
 			uniformModel="\JMSLLTE_scum_m\vests\TrooperHeavy_band2.p3d";
-			containerClass = "Supply80";
+			containerClass = "Supply120";
 			mass = 15;
 		};
 	};
@@ -259,7 +259,7 @@ class CfgWeapons
 		class iteminfo: VestItem
 		{	
 			uniformModel="\JMSLLTE_scum_m\vests\PathfinderBags.p3d";
-			containerClass = "Supply80";
+			containerClass = "Supply120";
 			mass = 15;
 		};
 	};
@@ -271,7 +271,7 @@ class CfgWeapons
 		class iteminfo: VestItem
 		{	
 			uniformModel="\JMSLLTE_scum_m\vests\PathfinderGren.p3d";
-			containerClass = "Supply80";
+			containerClass = "Supply120";
 			mass = 15;
 		};
 	};
@@ -283,7 +283,7 @@ class CfgWeapons
 		class iteminfo: VestItem
 		{	
 			uniformModel="\JMSLLTE_scum_m\vests\PathfinderVest.p3d";
-			containerClass = "Supply80";
+			containerClass = "Supply120";
 			mass = 15;
 		};
 	};
@@ -295,7 +295,7 @@ class CfgWeapons
 		class iteminfo: VestItem
 		{	
 			uniformModel="\JMSLLTE_scum_m\vests\Snow_vest1.p3d";
-			containerClass = "Supply80";
+			containerClass = "Supply120";
 			mass = 15;
 		};
 	};
@@ -307,7 +307,7 @@ class CfgWeapons
 		class iteminfo: VestItem
 		{	
 			uniformModel="\JMSLLTE_scum_m\vests\Alcommandos_strip.p3d";
-			containerClass = "Supply80";
+			containerClass = "Supply120";
 			mass = 15;
 		};
 	}
@@ -319,7 +319,7 @@ class CfgWeapons
 		class iteminfo: VestItem
 		{	
 			uniformModel="\JMSLLTE_scum_m\vests\Alcommandos_strip.p3d";
-			containerClass = "Supply80";
+			containerClass = "Supply120";
 			mass = 15;
 		};
 	};
@@ -331,7 +331,7 @@ class CfgWeapons
 		class iteminfo: VestItem
 		{	
 			uniformModel="\JMSLLTE_scum_m\vests\Alcommandos_vest2.p3d";
-			containerClass = "Supply80";
+			containerClass = "Supply120";
 			mass = 15;
 		};
 	};
@@ -343,7 +343,7 @@ class CfgWeapons
 		class iteminfo: VestItem
 		{	
 			uniformModel="\JMSLLTE_scum_m\vests\Alcommandos_vestL.p3d";
-			containerClass = "Supply80";
+			containerClass = "Supply120";
 			mass = 15;
 		};
 	};
@@ -355,7 +355,7 @@ class CfgWeapons
 		class iteminfo: VestItem
 		{	
 			uniformModel="\JMSLLTE_scum_m\vests\Pilot_breather.p3d";
-			containerClass = "Supply80";
+			containerClass = "Supply120";
 			mass = 15;
 		};
 	};
@@ -367,7 +367,7 @@ class CfgWeapons
 		class iteminfo: VestItem
 		{	
 			uniformModel="\JMSLLTE_scum_m\vests\Navytrooper_vest.p3d";
-			containerClass = "Supply80";
+			containerClass = "Supply120";
 			mass = 15;
 		};
 	};
@@ -379,7 +379,7 @@ class CfgWeapons
 		class iteminfo: VestItem
 		{	
 			uniformModel="\JMSLLTE_scum_m\vests\Navytrooper_holster.p3d";
-			containerClass = "Supply80";
+			containerClass = "Supply120";
 			mass = 15;
 		};
 	};
@@ -391,7 +391,7 @@ class CfgWeapons
 		class iteminfo: VestItem
 		{	
 			uniformModel="\JMSLLTE_scum_m\vests\Alcommandos_vest.p3d";
-			containerClass = "Supply80";
+			containerClass = "Supply120";
 			mass = 15;
 		};
 	};

@@ -93,6 +93,7 @@ class CfgVehicles
 		tf_subtype = "digital_lr";
  		tf_dialogUpdate = "['CH: %1'] call TFAR_fnc_updateLRDialogToChannel;";
 		maximumLoad = 160;
+		mass=85;
 	};
 	class HC_Backpack_LR_Black: Black_WM_Rebel_Radio
 	{
@@ -105,6 +106,7 @@ class CfgVehicles
 		tf_subtype = "digital_lr";
  		tf_dialogUpdate = "['CH: %1'] call TFAR_fnc_updateLRDialogToChannel;";
 		maximumLoad = 160;
+		mass=85;
 	};
 	//Uniforms USE EdSubcat_Personnel_Story FOR CUSTOMS GEORGE <3
 	
