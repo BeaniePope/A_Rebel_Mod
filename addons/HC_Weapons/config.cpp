@@ -14,7 +14,10 @@ class CfgPatches
 			"HC_a280c",
 			"HC_a280cr",
 			"HC_A300",
-			"HC_A300c"
+			"HC_A300c",
+			"HC_EE_3",
+			"HC_HH12"
+
         };
         units[]=
         {
@@ -25,6 +28,7 @@ class CfgPatches
 			"HC_Magazine_Core",
 			"HC_Magazine_A280_Uni",
 			"HC_Magazine_A300_Uni",
+			"HC_Magazine_EE_3",
 			"HC_RPS_Mag",
 			"HC_RPS_Mag_HE"
 		};
@@ -43,6 +47,8 @@ class CfgWeapons
 	class JMSLLTE_a300;
 	class JMSLLTE_a300c;
 	class JMSLLTE_RPS10_launcher;
+	class JMSLLTE_HH12_launcher;
+	class JMSLLTE_ee3;
 	//Rifles
 	class HC_a280: JMSLLTE_a280
 	{
@@ -98,6 +104,15 @@ class CfgWeapons
 			"HC_Magazine_A300_Uni"
 		};
 	};
+	class HC_EE_3: JMSLLTE_ee3
+	{
+		author = "George";
+		displayName = "[HC] EE-3 Blaster Carbine";
+		magazines[]=
+		{
+			"HC_Magazine_EE_3"
+		};
+	};
 
 
 	//Launchers
@@ -111,6 +126,13 @@ class CfgWeapons
 			"HC_RPS_Mag",
 			"HC_RPS_Mag_HE"
 		};
+	};
+
+	class HC_HH12: JMSLLTE_HH12_launcher
+	{
+		author = "Queen";
+		displayName = "[HC] HH-12";
+		
 	};
 };
 
@@ -268,6 +290,7 @@ class CfgAmmo
 			distance=1;
 		};
 	};
+//launcher ammo
 	class HC_RPS_Ammo: JMSLLTE_RPS10_Ammo
 	{
 		scope = 2;
@@ -298,7 +321,7 @@ class CfgMagazines
     class HC_Magazine_Core: CA_Magazine
     {
         author="Queen";
-		scope=2;
+		scope=0;
 		displayName="Dev Mag";
 		picture="\3AS\3AS_Weapons\Data\Textures\Energy_Cell_Arsenal.paa";
 		ammo="HC_Ammo_Core";
@@ -316,7 +339,7 @@ class CfgMagazines
 		displayName="Universal A280 Mag";
 		picture="\3AS\3AS_Weapons\Data\Textures\Energy_Cell_Arsenal.paa";
 		ammo="HC_Ammo_792";
-		count=60;
+		count=35;
        	mass=10;
 		initspeed=1600;
 		tracersEvery=1;
@@ -331,13 +354,28 @@ class CfgMagazines
 		displayName="Universal A300 Mag";
 		picture="\3AS\3AS_Weapons\Data\Textures\Energy_Cell_Arsenal.paa";
 		ammo="HC_Ammo_85";
-		count=60;
+		count=25;
        	mass=10;
 		initspeed=1600;
 		tracersEvery=1;
 		lastRoundsTracer=25;
 		descriptionShort="25rnd A300 Magazine.";
         displayNameShort="25rnd A300.";
+	};
+	class HC_Magazine_EE_3: HC_Magazine_Core
+	{
+		author="George";
+		scope=2;
+		displayName= "EE-3 Mag";
+		picture="\3AS\3AS_Weapons\Data\Textures\Energy_Cell_Arsenal.paa";
+		ammo="HC_Ammo_792";
+		count=30;
+       	mass=10;
+		initspeed=1600;
+		tracersEvery=1;
+		lastRoundsTracer=30;
+		descriptionShort="30rnd EE-3 Magazine.";
+        displayNameShort="30rnd EE-3.";
 	};
 	class HC_RPS_Mag: JMSLLTE_RPS10_Mag
 	{

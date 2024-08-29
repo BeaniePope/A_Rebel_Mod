@@ -5,7 +5,7 @@ class hc_lr_radio_dialog
     controlsBackground[] = { };
     objects[] = { };
     onUnload = "['OnRadioOpen', [player, TF_lr_dialog_radio, false, 'hc_lr_radio_dialog', false]] call TFAR_fnc_fireEventHandlers;";
-    onLoad = "if (sunOrMoon < 0.2) then {((_this select 0) displayCtrl 1200) ctrlSetText 'hc_core\TFAR_Radios\ui\hclr.paa'};"
+    onLoad = "if (sunOrMoon < 0.2) then {((_this select 0) displayCtrl 1200) ctrlSetText 'hc_core\ShortRange\TFAR_Radios\ui\hclr.paa'};"
     controls[]= {
         background,
         volume_Switch,
@@ -33,7 +33,7 @@ class hc_lr_radio_dialog
     {
         idc = 1200;
         moving = 1;
-        text = "hc_core\TFAR_Radios\ui\hclr.paa";
+        text = "hc_core\ShortRange\TFAR_Radios\ui\hclr.paa";
         x = 0.304167 * safezoneW + safezoneX;
         y = 0.265 * safezoneH + safezoneY;
         w = 0.391667 * safezoneW;

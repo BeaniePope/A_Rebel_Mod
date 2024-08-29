@@ -5,7 +5,7 @@ class commlink_radio_dialog
     controlsBackground[] = { };
     objects[] = { };
     onUnload = "['OnRadioOpen', [player, TF_sw_dialog_radio, false, 'commlink_radio_dialog', false]] call TFAR_fnc_fireEventHandlers;";
-    onLoad = "if (sunOrMoon < 0.2) then {((_this select 0) displayCtrl 1299) ctrlSetText '\HC_Core\TFAR_Radios\ui\commlink_n.paa';};";    
+    onLoad = "if (sunOrMoon < 0.2) then {((_this select 0) displayCtrl 1299) ctrlSetText '\HC_Core\ShortRange\TFAR_Radios\ui\commlink_n.paa';};";    
     controls[]= {
         background,
         channel_01,
@@ -32,7 +32,7 @@ class commlink_radio_dialog
     class background: RscBackPicture
     {
         idc = 1299;
-        text = "HC_Core\TFAR_Radios\ui\commlink.paa";
+        text = "HC_Core\ShortRange\TFAR_Radios\ui\commlink.paa";
         x = 0.199167 * safezoneW + safezoneX;
 	    y = 0.048 * safezoneH + safezoneY;
 	    w = 0.596562 * safezoneW;
