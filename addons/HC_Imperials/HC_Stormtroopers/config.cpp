@@ -67,7 +67,7 @@ class CfgWeapons
         author="Greg";
 		scope=2;
         displayName="[HC] Stormtrooper Vest (invisible)";
-    }
+    };
     ///uniforms
     class UniformItem;
     class WM_StormArmor;
@@ -285,7 +285,7 @@ class CfgVehicles
     {
         author = "Queen";
         scope = 2;
-        displayName = "[HC] Stormtrooper (CPL)"
+        displayName = "[HC] Stormtrooper (CPL)";
         linkeditems[] = 
         {
             "HC_Imperial_ST_Base_H",
@@ -329,7 +329,7 @@ class CfgVehicles
     {
         author = "Queen";
         scope = 2;
-        displayName = "[HC] Stormtrooper (SGT)"
+        displayName = "[HC] Stormtrooper (SGT)";
         linkeditems[] = 
         {
             "HC_Imperial_ST_Base_H",
@@ -373,7 +373,7 @@ class CfgVehicles
     {
         author = "Queen";
         scope = 2;
-        displayName = "[HC] Stormtrooper (SGM)"
+        displayName = "[HC] Stormtrooper (SGM)";
         linkeditems[] = 
         {
             "HC_Imperial_ST_Base_H",
@@ -419,7 +419,7 @@ class CfgVehicles
         author = "Queen";
         scope = 0;
         side = 1;
-        faction="HC_Imperials"
+        faction="HC_Imperials";
         editorSubcategory="EdSubcat_Personnel_SpecialForces";
         displayName="[HC] Scouttrooper (Dev)";
         uniformClass="WM_ScoutArmor";
@@ -428,7 +428,7 @@ class CfgVehicles
     {
         author = "Queen";
         scope = 2;
-        displayName = "[HC] Scouttrooper"
+        displayName = "[HC] Scouttrooper";
         linkeditems[] = 
         {
             "WM_ScoutVest",
@@ -477,17 +477,18 @@ class CfgVehicles
         author="Queen";
         scope = 0;
         side = 1;
-        faction="HC_Imperials"
+        faction="HC_Imperials";
         editorSubcategory="EdSubcat_Personnel";
         displayName="[HC] Officer (Dev)";
         uniformClass="WM_OfficerUniform";
     };
+
     class HC_Unit_Imperial_Officer: HC_Unit_Imperial_Officer_Base
     {
         scope = 2;
         displayName = "[HC] Imperial Officer";
         linkeditems[] = 
-        {,
+        {
             "WM_OfficerCap",
             "JMSLLTE_W_TD23_white_F",
             "FirstAidKit",
@@ -526,7 +527,7 @@ class CfgVehicles
         scope = 2;
         displayName = "[HC] Imperial Officer Armored";
         linkeditems[] = 
-        {,
+        {
             "WM_OfficerHelmet",
             "WM_Officer_armor",
             "JMSLLTE_W_TD23_white_F",
