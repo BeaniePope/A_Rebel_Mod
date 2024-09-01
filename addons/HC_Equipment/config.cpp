@@ -407,7 +407,6 @@ class CfgWeapons
 		displayName = "[HC] Rebel Commando Suit";
 		class ItemInfo: UniformItem
 		{
-			uniformModel="-";
 			uniformClass="HC_Unit_Rebel_Trooper_Base";
 			containerClass="Supply150";
 			mass=100;

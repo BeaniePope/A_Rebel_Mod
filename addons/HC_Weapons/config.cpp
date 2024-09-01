@@ -16,6 +16,8 @@ class CfgPatches
 			"HC_A300",
 			"HC_A300c",
 			"HC_EE_3",
+			"HC_DLT_19",
+			"HC_rt97c",
 			"HC_HH12"
 
         };
@@ -29,6 +31,8 @@ class CfgPatches
 			"HC_Magazine_A280_Uni",
 			"HC_Magazine_A300_Uni",
 			"HC_Magazine_EE_3",
+			"HC_Magazine_DLT_19",
+			"HC_Magazine_rt97c",
 			"HC_RPS_Mag",
 			"HC_RPS_Mag_HE"
 		};
@@ -49,6 +53,9 @@ class CfgWeapons
 	class JMSLLTE_RPS10_launcher;
 	class JMSLLTE_HH12_launcher;
 	class JMSLLTE_ee3;
+	class JMSLLTE_T21BlasterRifle;
+	class JMSLLTE_DLT19BlasterRifle;
+	class JMSLLTE_rt97cBlasterRifle;
 	//Rifles
 	class HC_a280: JMSLLTE_a280
 	{
@@ -104,6 +111,38 @@ class CfgWeapons
 			"HC_Magazine_A300_Uni"
 		};
 	};
+	class HC_T21: JMSLLTE_T21BlasterRifle
+	{
+		author = "George";
+		displayName = "[HC] T21-B Blaster Rifles";
+		magazines[]=
+		{
+			"HC_Magazine_T21B"
+		};
+	};
+	class HC_DLT_19: JMSLLTE_DLT19BlasterRifle
+	{
+		baseWeapon="HC_DLT_19";
+		_generalMacro="HC_DLT_19";
+		author="George";
+		displayName="[HC] DLT-19 Heavy Blaster Rifle";
+		magazines[]=
+		{
+			"HC_Magazine_DLT_19"
+		};
+	};
+	class HC_rt97c: JMSLLTE_rt97cBlasterRifle
+	{
+		baseWeapon="HC_rt97c";
+		_generalMacro="HC_rt97c";
+		scope= 2;
+		author="George";
+		displayName="[HC] RT97C Heavy Blaster Rifle";
+		magazines[]=
+		{
+			"HC_Magazine_rt97c"
+		};
+	};
 	class HC_EE_3: JMSLLTE_ee3
 	{
 		author = "George";
@@ -113,7 +152,6 @@ class CfgWeapons
 			"HC_Magazine_EE_3"
 		};
 	};
-
 
 	//Launchers
 	class HC_RPS10: JMSLLTE_RPS10_launcher
@@ -156,7 +194,7 @@ class CfgAmmo
 		model="\MRC\JLTS\weapons\Core\effects\laser_red.p3d";
 		effectFly="3AS_PlasmaBolt_red_Fly";
 		flaresize=5;
-		tracerscale=1.1;
+		tracerscale=1;
 		caliber=1;
 		coefGravity=0;
 		ACE_damageType = "bullet";
@@ -355,7 +393,7 @@ class CfgMagazines
 		picture="\3AS\3AS_Weapons\Data\Textures\Energy_Cell_Arsenal.paa";
 		ammo="HC_Ammo_85";
 		count=25;
-       	mass=10;
+       	mass=16;
 		initspeed=1600;
 		tracersEvery=1;
 		lastRoundsTracer=25;
@@ -377,6 +415,54 @@ class CfgMagazines
 		descriptionShort="30rnd EE-3 Magazine.";
         displayNameShort="30rnd EE-3.";
 	};
+	class HC_Magazine_DLT_19: HC_Magazine_Core
+	{
+		author="George";
+		scope=2;
+		displayName= "DLT-19 Mag";
+		picture="\3AS\3AS_Weapons\Data\Textures\Energy_Cell_Arsenal.paa";
+		ammo="HC_Ammo_792";
+		count=75;
+       	mass=36;
+		initspeed=1600;
+		tracersEvery=1;
+		lastRoundsTracer=75;
+		descriptionShort="75rd DLT-19 Magazine.";
+        displayNameShort="75rd DLT-19.";
+	};
+	class HC_Magazine_rt97c: HC_Magazine_Core
+	{
+		author="George";
+		scope=2;
+		displayName= "RT97C Mag";
+		picture="\3AS\3AS_Weapons\Data\Textures\Energy_Cell_Arsenal.paa";
+		ammo="HC_Ammo_792";
+		count=150;
+       	mass=50;
+		initspeed=1600;
+		tracersEvery=1;
+		lastRoundsTracer=75;
+		descriptionShort="150rd RT97C Magazine.";
+        displayNameShort="150rd RT97C.";
+	};
+	class HC_Magazine_T21B: HC_Magazine_Core
+	{
+		author="George";
+		scope=2;
+		displayName= "T21B Mag";
+		picture="\3AS\3AS_Weapons\Data\Textures\Energy_Cell_Arsenal.paa";
+		ammo="HC_Ammo_792";
+		count=60;
+       	mass=25;
+		initspeed=1600;
+		tracersEvery=1;
+		lastRoundsTracer=50;
+		descriptionShort="50rd T21B Magazine.";
+        displayNameShort="50rd T21B.";
+	};
+
+
+
 	class HC_RPS_Mag: JMSLLTE_RPS10_Mag
 	{
 		displayName = "RPS-10 Rocket";
@@ -387,4 +473,5 @@ class CfgMagazines
 		displayName = "RPS-10 Rocket HE";
 		initSpeed = "500";
 	};
+
 };
