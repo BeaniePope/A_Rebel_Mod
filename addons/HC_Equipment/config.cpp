@@ -396,16 +396,29 @@ class CfgWeapons
 		};
 	};
 	
+	class JMSLLTE_ScumTroopHeavy_wood_F_CombatUniform; //Raincoats
+	class JMSLLTE_ScumTroopHeavy_brown_F_CombatUniform;
+	class JMSLLTE_ScumTroopHeavy_desert_F_CombatUniform;
 
+	class JMSLLTE_ScumCommando_cloud_F_CombatUniform; //"Suit" light 
+	class JMSLLTE_ScumCommando_woodD_F_CombatUniform;
+	class JMSLLTE_ScumCommando_desertS_F_CombatUniform;
+	class JMSLLTE_ScumCommando_green_F_CombatUniform;
+	class JMSLLTE_ScumCommando_wood_F_CombatUniform;
+
+	class JMSLLTE_ScumAlCommando_cloud_F_CombatUniform; //"Wear" Suit
+	class JMSLLTE_ScumAlCommando_desert_F_CombatUniform;
+	class JMSLLTE_ScumAlCommando_base_F_CombatUniform;
+	class JMSLLTE_ScumAlCommando_wood_F_CombatUniform;
+
+	class JMSLLTE_ScumNavy_blue_F_CombatUniform;
 	//Uniforms
 	class UniformItem;
-	class JMSLLTE_ScumAlCommando_wood_F_CombatUniform;
-	class HC_Rebel_Uniform_Suit_Wood: JMSLLTE_ScumAlCommando_wood_F_CombatUniform
+	class HC_Rebel_Uniform_Suit_Wood: JMSLLTE_ScumCommando_wood_F_CombatUniform
 	{
-		author = "Queen";
+		author = "Greg";
 		scope = 2;
 		displayName = "[HC] Rebel Commando Suit";
-		picture="\JMSLLTE_scum\data\ico\Ico_u_commando.paa";
 		class ItemInfo: UniformItem
 		{
 			uniformClass="HC_Unit_Rebel_Trooper_Base";
@@ -413,6 +426,82 @@ class CfgWeapons
 			mass=100;
 		};
 	};
+	class HC_Rebel_Uniform_C_Wear: JMSLLTE_ScumAlCommando_wood_F_CombatUniform
+	{
+		author = "Greg";
+		scope = 2;
+		displayName = "[HC] Rebel Commando Wear";
+		picture="\JMSLLTE_scum\data\ico\Ico_u_commando.paa";
+		class ItemInfo: UniformItem
+		{
+			uniformClass="HC_Rebel_Uniform_C_Wear_U";
+			containerClass="Supply150";
+			mass=100;
+		};
+	};
+
+	///navy uniforms
+	class HC_Navy_Uniform_Green: JMSLLTE_ScumNavy_blue_F_CombatUniform
+	{
+		author = "Greg";
+		scope = 2;
+		displayName = "[HC] Rebel Navy Trooper Wear (Green)";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="HC_Unit_Navy_green";
+			Armor=1;
+			modelSides[]={6};
+			containerClass="Supply80";
+			mass=40;
+		};
+	};
+	class HC_Navy_Uniform_Black: JMSLLTE_ScumNavy_blue_F_CombatUniform
+	{
+		author = "Greg";
+		scope = 2;
+		displayName = "[HC] Rebel Navy Trooper Wear (Black)";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="HC_Unit_Navy_Black";
+			Armor=1;
+			modelSides[]={6};
+			containerClass="Supply80";
+			mass=40;
+		};
+	};
+	class HC_Navy_Uniform_Brown: JMSLLTE_ScumNavy_blue_F_CombatUniform
+	{
+		author = "Greg";
+		scope = 2;
+		displayName = "[HC] Rebel Navy Trooper Wear (Brown)";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="HC_Unit_Navy_Brown";
+			Armor=1;
+			modelSides[]={6};
+			containerClass="Supply80";
+			mass=40;
+		};
+	};
+	class HC_Navy_Uniform_Purple: JMSLLTE_ScumNavy_blue_F_CombatUniform
+	{
+		author = "Greg";
+		scope = 2;
+		displayName = "[HC] Rebel Navy Trooper Wear (Purple)";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="HC_Unit_Navy_Purple";
+			Armor=1;
+			modelSides[]={6};
+			containerClass="Supply80";
+			mass=40;
+		};
+	};
+
 
 };
 class CfgVehicles
@@ -439,46 +528,11 @@ class CfgVehicles
 	};
 
 	//Uniforms
-	class JMSLLTE_ScumTroopHeavy_wood_F_CombatUniform; //Raincoats
-	class JMSLLTE_ScumTroopHeavy_brown_F_CombatUniform;
-	class JMSLLTE_ScumTroopHeavy_desert_F_CombatUniform;
-
-	class JMSLLTE_ScumCommando_cloud_F_CombatUniform; //"Suit" light 
-	class JMSLLTE_ScumCommando_woodD_F_CombatUniform;
-	class JMSLLTE_ScumCommando_desertS_F_CombatUniform;
-	class JMSLLTE_ScumCommando_green_F_CombatUniform;
-	class JMSLLTE_ScumCommando_wood_F_CombatUniform;
-
-	class JMSLLTE_ScumAlCommando_cloud_F_CombatUniform; //"Wear" Suit
-	class JMSLLTE_ScumAlCommando_desert_F_CombatUniform;
-	class JMSLLTE_ScumAlCommando_base_F_CombatUniform;
-	class JMSLLTE_ScumAlCommando_wood_F_CombatUniform;
-
-	class HC_Rebel_Uniform_Suit_Wood: JMSLLTE_ScumCommando_woodD_F_CombatUniform
-	{
-		author = "Queen";
-		displayName = "[HC] Rebel Uniform Suit (Wood)";
-		scope = 2;
-	};
-	
-
-
 	//Units USE EdSubcat_Personnel_Story FOR CUSTOMS GEORGE <3
 	class JMSLLTE_ScumCommando_wood_F;
-	class HC_Unit_Rebel_Trooper_Base: JMSLLTE_ScumCommando_wood_F
-	{
-		author = "Queen";
-		scope = 0;
-		displayName = "[HC] Base Rebel Trooper (Dev)";
-		uniformClass = "HC_Rebel_Uniform_Suit_Wood";
-		backpack = "";
-		faction = "HC_Faction";
-		side = 0;
-		editorSubcategory = "EdSubcat_Personnel";
-		linkedItems[] = {};
-	};
+	class JMSLLTE_ScumAlCommando_wood_F;
 
-	class HC_Unit_Rebel_Trooper_Wood: HC_Unit_Rebel_Trooper_Base
+	class HC_Unit_Rebel_Trooper_Base: JMSLLTE_ScumCommando_wood_F
 	{
 		author = "Queen";
 		scope = 2;
@@ -527,148 +581,58 @@ class CfgVehicles
 		};
 	};
 
-	class HC_Unit_Rebel_AntiTank_Wood: HC_Unit_Rebel_Trooper_Base
-	{
-		scope = 2;
-		displayName = "[HC] Rebel AT Trooper";
-		uniformClass = "HC_Rebel_Uniform_Suit_Wood";
-		backpack = "HC_Rebel_Backpack_Wood";
-		editorSubcategory = "EdSubcat_Personnel_Camo_Woodland";
-		linkedItems[] = 
-		{
-			"HC_Commando_Helmet_Endor",
-			"HC_Commando_V",
-			"ItemMap",
-			"ItemCompass",
-			"ItemWatch",
-			"FirstAidKit",
-			"HC_Commlink"
-		};
-		respawnLinkedItems[]=
-		{
-			"HC_Commando_Helmet_Endor",
-			"ItemMap",
-			"ItemCompass",
-			"ItemWatch",
-			"HC_Commlink"
-		};
-		weapons[]= 
-		{
-			"HC_a280",
-			"Throw",
-			"Put"
-		};
-		respawnWeapons[]= 
-		{
-			"HC_a280",
-			"Throw",
-			"Put"
-		};
-		magazines[]=
-		{
-			MACRO_MAG_x5(HC_Magazine_A280_Uni)
-		};
-		respawnMagazines[]=
-		{
-			MACRO_MAG_x5(HC_Magazine_A280_Uni)
-		};
-	};
-
-	class HC_Unit_Rebel_Medic_Wood: HC_Unit_Rebel_Trooper_Base
-	{
-		scope = 2;
-		displayName = "[HC] Rebel Medical Trooper";
-		uniformClass = "HC_Rebel_Uniform_Suit_Wood";
-		backpack = "HC_Medical_Backpack_Wood";
-		linkedItems[] = 
-		{
-			"HC_Medical_Helmet_Endor",
-			"HC_Commando_V",
-			"ItemMap",
-			"ItemCompass",
-			"ItemWatch",
-			MACRO_MAG_x5(FirstAidKit),
-			"MedicKit",
-			"HC_Commlink"
-		};
-		respawnLinkedItems[] =
-		{
-			"HC_Medical_Helmet_Endor",
-			"HC_Commando_V",
-			"ItemMap",
-			"ItemCompass",
-			"ItemWatch",
-			MACRO_MAG_x5(FirstAidKit),
-			"MedicKit",			
-			"HC_Commlink"
-		};
-		weapons[] = 
-		{
-			"HC_a280c",
-			"Throw",
-			"Put"
-		};
-		respawnWeapons[] =
-		{
-			"HC_a280c",
-			"Throw",
-			"Put"
-		};
-		magazines[] = 
-		{
-			MACRO_MAG_x5(HC_Magazine_A280_Uni)
-		};
-		respawnMagazines[] =
-		{
-			MACRO_MAG_x5(HC_Magazine_A280_Uni)
-		};
-	};
 	class JMSLLTE_ScumPathfinder_blue_F;
 	class HC_Unit_Rebel_Pathfinder_Base: JMSLLTE_ScumPathfinder_blue_F
 	{
 		author = "Queen";
 		scope = 0;
-		displayName = "[HC] Rebel Pathfinder (Dev)";
+		displayName = "[HC] Rebel Pathfinder ()";
 		uniformClass = "HC_Rebel_Uniform_Suit_Wood";
 		backpack = "HC_Rebel_Backpack";
 		editorSubcategory = "EdSubcat_Personnel";
-		linkedItems[]=
-		{
-			"HC_Pathfinder_Helmet_Green",
-			"ItemMap",
-			"ItemCompass",
-			"ItemWatch",
-			"HC_Commlink"
-		};
-		respawnLinkedItems[]=
-		{
-			"HC_Pathfinder_Helmet_Green",
-			"ItemMap",
-			"ItemCompass",
-			"ItemWatch",
-			"HC_Commlink"
-		};
-		weapons[] = 
-		{
-			"HC_a300",
-			"Throw",
-			"Put"
-		};
-		respawnWeapons[]= 
-		{
-			"HC_a300",
-			"Throw",
-			"Put"
-		};
-		magazines[]=
-		{
-			MACRO_MAG_x5(HC_Magazine_A300_Uni)
-		};
-		respawnMagazines[]=
-		{
-			MACRO_MAG_x5(HC_Magazine_A300_Uni)
-		};
+	};
+	class HC_Rebel_Uniform_C_Wear_U: JMSLLTE_ScumAlCommando_wood_F
+	{
+
 	};
 
+
+	class JMSLLTE_ScumNavy_blue_F; 	//JMSLLTE_ScumNavy_blue_F_CombatUniform
+	class HC_Unit_Navy_green: JMSLLTE_ScumNavy_blue_F
+	{
+		author="JMax";
+		scope=1;
+		hiddenSelectionsTextures[]=
+		{
+			"\HC_Equipment\data\uniforms\Trooper_Navy\NavyGreen.paa"
+		};
+	};
+	class HC_Unit_Navy_Black: JMSLLTE_ScumNavy_blue_F
+	{
+		author="JMax";
+		scope=1;
+		hiddenSelectionsTextures[]=
+		{
+			"\HC_Equipment\data\uniforms\Trooper_Navy\NavyBlack.paa"
+		};
+	};
+	class HC_Unit_Navy_Brown: JMSLLTE_ScumNavy_blue_F
+	{
+		author="JMax";
+		scope=1;
+		hiddenSelectionsTextures[]=
+		{
+			"\HC_Equipment\data\uniforms\Trooper_Navy\NavyBrown.paa"
+		};
+	};
+	class HC_Unit_Navy_Purple: JMSLLTE_ScumNavy_blue_F
+	{
+		author="JMax";
+		scope=1;
+		hiddenSelectionsTextures[]=
+		{
+			"\HC_Equipment\data\uniforms\Trooper_Navy\NavyPurple.paa"
+		};
+	};
 };
 
