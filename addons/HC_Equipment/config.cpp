@@ -19,6 +19,7 @@ class CfgPatches
 			"HC_Navy_Uniform_Black",
 			"HC_Navy_Uniform_Brown",
 			"HC_Navy_Uniform_Purple",
+			"HC_Navy_Uniform_Zeus"
 
         };
         units[]=
@@ -417,10 +418,11 @@ class CfgWeapons
 	class JMSLLTE_ScumAlCommando_base_F_CombatUniform;
 	class JMSLLTE_ScumAlCommando_wood_F_CombatUniform;
 
-	class JMSLLTE_ScumNavy_blue_F_CombatUniform;
+	class JMSLLTE_ScumNavy_blue_F_CombatUniform; //navy suit
 	//Uniforms
 	class UniformItem;
-	class HC_Rebel_Uniform_Suit_Wood: JMSLLTE_ScumCommando_wood_F_CombatUniform
+	//Commando Suit
+	class HC_Rebel_Uniform_Suit_Base: JMSLLTE_ScumCommando_wood_F_CombatUniform
 	{
 		author = "Greg";
 		scope = 2;
@@ -432,12 +434,62 @@ class CfgWeapons
 			mass=100;
 		};
 	};
+
+	class HC_Rebel_Uniform_Suit_Brown: HC_Rebel_Uniform_Suit_Base
+	{
+		author = "Greg";
+		scope = 2;
+		displayName = "[HC] Rebel Commando Suit (Brown)";
+		class ItemInfo: UniformItem
+		{
+			uniformClass="HC_Unit_Rebel_Trooper_Brown";
+			containerClass="Supply150";
+			mass=100;
+		};
+	};
+	class HC_Rebel_Uniform_Suit_Grey: HC_Rebel_Uniform_Suit_Brown
+	{
+		author = "Greg";
+		scope = 2;
+		displayName = "[HC] Rebel Commando Suit (Grey)";
+		class ItemInfo: UniformItem
+		{
+			uniformClass="HC_Unit_Rebel_Trooper_Grey";
+			containerClass="Supply150";
+			mass=100;
+		};
+	};
+	class HC_Rebel_Uniform_Suit_Green: HC_Rebel_Uniform_Suit_Brown
+	{
+		author = "Greg";
+		scope = 2;
+		displayName = "[HC] Rebel Commando Suit (Green)";
+		class ItemInfo: UniformItem
+		{
+			uniformClass="HC_Unit_Rebel_Trooper_Green";
+			containerClass="Supply150";
+			mass=100;
+		};
+	};
+	class HC_Rebel_Uniform_Suit_Purple: HC_Rebel_Uniform_Suit_Brown
+	{
+		author = "Greg";
+		scope = 2;
+		displayName = "[HC] Rebel Commando Suit (Purple)";
+		class ItemInfo: UniformItem
+		{
+			uniformClass="HC_Unit_Rebel_Trooper_Purple";
+			containerClass="Supply150";
+			mass=100;
+		};
+	};
+
+	//commando WEAR
 	class HC_Rebel_Uniform_C_Wear: JMSLLTE_ScumAlCommando_wood_F_CombatUniform
 	{
 		author = "Greg";
 		scope = 2;
 		displayName = "[HC] Rebel Commando Wear";
-		picture="\JMSLLTE_scum\data\ico\Ico_u_commando.paa";
 		class ItemInfo: UniformItem
 		{
 			uniformClass="HC_Rebel_Uniform_C_Wear_U";
@@ -501,6 +553,21 @@ class CfgWeapons
 		{
 			uniformModel="-";
 			uniformClass="HC_Unit_Navy_Purple";
+			Armor=1;
+			modelSides[]={6};
+			containerClass="Supply80";
+			mass=40;
+		};
+	};
+	class HC_Navy_Uniform_Zeus: JMSLLTE_ScumNavy_blue_F_CombatUniform
+	{
+		author = "Greg";
+		scope = 2;
+		displayName = "[HC] Rebel Navy Trooper Wear (Hawaiian)";
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="HC_Unit_Navy_Zues";
 			Armor=1;
 			modelSides[]={6};
 			containerClass="Supply80";
@@ -586,6 +653,43 @@ class CfgVehicles
 			MACRO_MAG_x5(HC_Magazine_A280_Uni)
 		};
 	};
+	class HC_Unit_Rebel_Trooper_Brown: HC_Unit_Rebel_Trooper_Base
+	{
+		author="Possum";
+		scope=1;
+		hiddenSelectionsTextures[]=
+		{
+			"\HC_Equipment\data\uniforms\Commando_wear\CommandoBrown.paa"
+		};
+	};
+	class HC_Unit_Rebel_Trooper_Grey: HC_Unit_Rebel_Trooper_Base
+	{
+		author="Possum";
+		scope=1;
+		hiddenSelectionsTextures[]=
+		{
+			"\HC_Equipment\data\uniforms\Commando_wear\CommandoGray.paa"
+		};
+	};
+	class HC_Unit_Rebel_Trooper_Green: HC_Unit_Rebel_Trooper_Base
+	{
+		author="Possum";
+		scope=1;
+		hiddenSelectionsTextures[]=
+		{
+			"\HC_Equipment\data\uniforms\Commando_wear\CommandoGreen.paa"
+		};
+	};
+	class HC_Unit_Rebel_Trooper_Purple: HC_Unit_Rebel_Trooper_Base
+	{
+		author="Possum";
+		scope=1;
+		hiddenSelectionsTextures[]=
+		{
+			"\HC_Equipment\data\uniforms\Commando_wear\CommandoPurple.paa"
+		};
+	};
+
 
 	class JMSLLTE_ScumPathfinder_blue_F;
 	class HC_Unit_Rebel_Pathfinder_Base: JMSLLTE_ScumPathfinder_blue_F
@@ -606,7 +710,7 @@ class CfgVehicles
 	class JMSLLTE_ScumNavy_blue_F; 	//JMSLLTE_ScumNavy_blue_F_CombatUniform
 	class HC_Unit_Navy_green: JMSLLTE_ScumNavy_blue_F
 	{
-		author="JMax";
+		author="Possum";
 		scope=1;
 		hiddenSelectionsTextures[]=
 		{
@@ -615,7 +719,7 @@ class CfgVehicles
 	};
 	class HC_Unit_Navy_Black: JMSLLTE_ScumNavy_blue_F
 	{
-		author="JMax";
+		author="Possum";
 		scope=1;
 		hiddenSelectionsTextures[]=
 		{
@@ -624,7 +728,7 @@ class CfgVehicles
 	};
 	class HC_Unit_Navy_Brown: JMSLLTE_ScumNavy_blue_F
 	{
-		author="JMax";
+		author="Possum";
 		scope=1;
 		hiddenSelectionsTextures[]=
 		{
@@ -633,11 +737,20 @@ class CfgVehicles
 	};
 	class HC_Unit_Navy_Purple: JMSLLTE_ScumNavy_blue_F
 	{
-		author="JMax";
+		author="Possum";
 		scope=1;
 		hiddenSelectionsTextures[]=
 		{
 			"\HC_Equipment\data\uniforms\Trooper_Navy\NavyPurple.paa"
+		};
+	};
+	class HC_Unit_Navy_Zues: JMSLLTE_ScumNavy_blue_F
+	{
+		author="Possum";
+		scope=1;
+		hiddenSelectionsTextures[]=
+		{
+			"\HC_Equipment\data\uniforms\Trooper_Navy\Navy_Hawaiian.paa"
 		};
 	};
 };
