@@ -405,6 +405,7 @@ class CfgWeapons
 		author = "Queen";
 		scope = 2;
 		displayName = "[HC] Rebel Commando Suit";
+		picture="\JMSLLTE_scum\data\ico\Ico_u_commando.paa";
 		class ItemInfo: UniformItem
 		{
 			uniformClass="HC_Unit_Rebel_Trooper_Base";
@@ -463,8 +464,8 @@ class CfgVehicles
 
 
 	//Units USE EdSubcat_Personnel_Story FOR CUSTOMS GEORGE <3
-	class B_Soldier_base_F;
-	class HC_Unit_Rebel_Trooper_Base: B_Soldier_base_F
+	class JMSLLTE_ScumCommando_wood_F;
+	class HC_Unit_Rebel_Trooper_Base: JMSLLTE_ScumCommando_wood_F
 	{
 		author = "Queen";
 		scope = 0;
@@ -622,8 +623,8 @@ class CfgVehicles
 			MACRO_MAG_x5(HC_Magazine_A280_Uni)
 		};
 	};
-
-	class HC_Unit_Rebel_Pathfinder_Base: B_Soldier_base_F
+	class JMSLLTE_ScumPathfinder_blue_F;
+	class HC_Unit_Rebel_Pathfinder_Base: JMSLLTE_ScumPathfinder_blue_F
 	{
 		author = "Queen";
 		scope = 0;
