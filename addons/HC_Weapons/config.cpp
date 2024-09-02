@@ -24,6 +24,7 @@ class CfgPatches
 			"HC_ec17pistol",
 			"HC_relbyk23pistol",
 			"HC_rk3pistol",
+			"HC_Bryarpistol",
 			"HC_HH12"
 
         };
@@ -246,6 +247,20 @@ class CfgAmmo
 
 class CfgMagazines
 {
+	//calls for bryar
+	class ACE_HuntIR_M203;
+	class ACE_40mm_Flare_ir;
+	class ACE_40mm_Flare_red;
+	class ACE_40mm_Flare_green;
+	class ACE_40mm_Flare_white;
+	class 1Rnd_SmokeYellow_Grenade_shell;
+	class 1Rnd_Smoke_Grenade_shell;
+	class 1Rnd_SmokeRed_Grenade_shell;
+	class 1Rnd_SmokePurple_Grenade_shell;
+	class 1Rnd_SmokeOrange_Grenade_shell;
+	class 1Rnd_SmokeGreen_Grenade_shell;
+	class 1Rnd_SmokeBlue_Grenade_shell;
+
 	class Default;
 	class CA_Magazine: Default
 	{
@@ -397,6 +412,7 @@ class CfgWeapons
 	class JMSLLTE_T21BlasterRifle;
 	class JMSLLTE_DLT19BlasterRifle;
 	class JMSLLTE_rt97cBlasterRifle;
+	class JMSLLTE_K16pistol;
 	//Rifles
 	class HC_a280: JMSLLTE_a280
 	{
@@ -592,5 +608,27 @@ class CfgWeapons
 		author = "Queen";
 		displayName = "[HC] HH-12";
 		
+	};
+	class HC_Bryarpistol: JMSLLTE_K16pistol
+	{
+		
+		author = "George";
+		displayName = "[HC] Bryar Blaster Pistol";
+		magazines[]=
+		{
+			"ACE_HuntIR_M203",
+			"ACE_40mm_Flare_ir",
+			"ACE_40mm_Flare_red",
+			"ACE_40mm_Flare_green",
+			"ACE_40mm_Flare_white",
+			"1Rnd_SmokeYellow_Grenade_shell",
+			"1Rnd_Smoke_Grenade_shell",
+			"1Rnd_SmokeRed_Grenade_shell",
+			"1Rnd_SmokePurple_Grenade_shell",
+			"1Rnd_SmokeOrange_Grenade_shell",
+			"1Rnd_SmokeGreen_Grenade_shell",
+			"1Rnd_SmokeBlue_Grenade_shell"
+		};
+		initspeed=80; //40mm speed
 	};
 };

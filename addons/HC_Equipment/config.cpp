@@ -14,6 +14,12 @@ class CfgPatches
 			"HC_Commando_Helmet_Cloud",
 			"HC_Commando_Helmet_Desert",
 			"HC_Commando_Helmet_Black",
+
+			"HC_Navy_Uniform_Green",
+			"HC_Navy_Uniform_Black",
+			"HC_Navy_Uniform_Brown",
+			"HC_Navy_Uniform_Purple",
+
         };
         units[]=
         {
