@@ -40,33 +40,14 @@ class CfgPatches
 			"HC_Magazine_DLT_19",
 			"HC_Magazine_rt97c",
 			"HC_Magazine_class_A",
-			"HC_Magazine_class_B",
-			"HC_RPS_Mag",
-			"HC_RPS_Mag_HE"
+			"HC_Magazine_class_B"
+
 		};
     };
 };
 
 class CfgAmmo
 {
-	class JLTS_bullet_rifle_red;
-	class JMSLLTE_RPS10_Ammo;
-	class JMSLLTE_RPS10_HE_Ammo;
-//launcher ammo
-	class HC_RPS_Ammo: JMSLLTE_RPS10_Ammo
-	{
-		scope = 2;
-		allowAgainstInfantry=1;
-		thrust=0.3;
-		maxSpeed = 300;
-	};
-	class HC_RPS_Ammo_HE: JMSLLTE_RPS10_HE_Ammo
-	{
-		scope = 2;
-		allowAgainstInfantry=1;
-		thrust=0.3;
-		maxSpeed = 300;
-	};
 
 ///////vanilla ammo stuff
 	class B_556x45_Ball_Tracer_Red;
@@ -272,8 +253,6 @@ class CfgMagazines
 	class CA_LauncherMagazine: CA_Magazine
 	{
 	};
-	class JMSLLTE_RPS10_Mag;
-	class JMSLLTE_RPS10_HE_Mag;
 
 
     class HC_Magazine_Core: CA_Magazine
@@ -403,19 +382,6 @@ class CfgMagazines
 		descriptionShort="10rd Class B Magazine.";
         displayNameShort="10rd Class B.";
 	};
-
-
-	class HC_RPS_Mag: JMSLLTE_RPS10_Mag
-	{
-		displayName = "RPS-10 Rocket";
-		initSpeed = "500";
-	};
-	class HC_RPS_Mag_HE: JMSLLTE_RPS10_Mag
-	{
-		displayName = "RPS-10 Rocket HE";
-		initSpeed = "500";
-	};
-
 };
 class CfgWeapons
 {
@@ -426,7 +392,6 @@ class CfgWeapons
 	class JMSLLTE_a280cr;
 	class JMSLLTE_a300;
 	class JMSLLTE_a300c;
-	class JMSLLTE_RPS10_launcher;
 	class JMSLLTE_HH12_launcher;
 	class JMSLLTE_ee3;
 	class JMSLLTE_T21BlasterRifle;
@@ -597,7 +562,7 @@ class CfgWeapons
 		displayName = "[HC] EC-17 Holdout Blaster";
 		magazines[]=
 		{
-			"HC_Magazine_class_B"
+			"HC_Magazine_class_A"
 		};
 		initspeed=360; //9mm speed
 	};
@@ -609,7 +574,7 @@ class CfgWeapons
 		{
 			"HC_Magazine_class_B"
 		};
-		initspeed=255; //9mm speed
+		initspeed=255; //.45 speed
 	};
 	class HC_rk3pistol: JMSLLTE_rk3pistol
 	{
@@ -622,18 +587,6 @@ class CfgWeapons
 		initspeed=360; //9mm speed
 	};
 	//Launchers
-	class HC_RPS10: JMSLLTE_RPS10_launcher
-	{
-		author = "Queen";
-		displayName = "[HC] RPS-10 Launcher";
-		modelOptics="\A3\Weapons_F\acc\reticle_RPG_F";
-		magazines[] =
-		{
-			"HC_RPS_Mag",
-			"HC_RPS_Mag_HE"
-		};
-	};
-
 	class HC_HH12: JMSLLTE_HH12_launcher
 	{
 		author = "Queen";
