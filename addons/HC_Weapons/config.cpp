@@ -376,7 +376,7 @@ class CfgMagazines
 		displayName= "Class A Blaster Cartridge";
 		ammo="HC_9mm_ammo";
 		count=16;
-       	mass=25;
+       	mass=8;
 		initspeed=360; //9mm speed
 		tracersEvery=1;
 		lastRoundsTracer=50;
@@ -390,7 +390,7 @@ class CfgMagazines
 		displayName= "Class B Blaster Cartridge";
 		ammo="HC_45_ammo";
 		count=10;
-       	mass=25;
+       	mass=8;
 		initspeed=255; //.45 speed
 		tracersEvery=1;
 		lastRoundsTracer=50;
