@@ -590,14 +590,14 @@ class CfgVehicles
 		author = "Queen";
 		scope = 2;
 		displayName = "[HC] Rebel Backpack (Wood)";
-		maximumLoad = 200;
+		maximumLoad = 400;
 	};
 	class HC_Rebel_Backpack_Black: Black_WM_Rebel_bag
 	{
 		author = "Queen";
 		scope = 2;
 		displayName = "[HC] Rebel Backpack (Black)";
-		maximumLoad = 200;
+		maximumLoad = 400;
 	};
 
 	//Uniforms
