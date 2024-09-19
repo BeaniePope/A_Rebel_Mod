@@ -590,16 +590,64 @@ class CfgVehicles
 		author = "Queen";
 		scope = 2;
 		displayName = "[HC] Rebel Backpack (Wood)";
-		maximumLoad = 400;
+		maximumLoad = 280;
 	};
 	class HC_Rebel_Backpack_Black: Black_WM_Rebel_bag
 	{
 		author = "Queen";
 		scope = 2;
 		displayName = "[HC] Rebel Backpack (Black)";
-		maximumLoad = 400;
+		maximumLoad = 280;
 	};
-
+	//vanilla packs being the same.
+	class B_AssaultPack_cbr
+	{
+		maximumLoad = 280
+	};
+	class B_AssaultPack_rgr
+	{
+		maximumLoad = 280
+	};
+	class B_AssaultPack_khk
+	{
+		maximumLoad = 280
+	};
+	class JLTS_Clone_belt_bag
+	{
+		maximumLoad = 280
+	};
+	class B_FieldPack_cbr
+	{
+		maximumLoad = 280
+	};
+	class B_FieldPack_green_F
+	{
+		maximumLoad = 280
+	};
+	class B_FieldPack_khk
+	{
+		maximumLoad = 280
+	};
+	class B_FieldPack_oli
+	{
+		maximumLoad = 280
+	};
+	class B_Messenger_Black_F
+	{
+		maximumLoad = 280
+	};
+	class B_Messenger_Coyote_F
+	{
+		maximumLoad = 280
+	};
+	class B_Messenger_Gray_F
+	{
+		maximumLoad = 280
+	};
+	class B_Messenger_Olive_F
+	{
+		maximumLoad = 280
+	};
 	//Uniforms
 	//Units USE EdSubcat_Personnel_Story FOR CUSTOMS GEORGE <3
 	class JMSLLTE_ScumCommando_wood_F;
