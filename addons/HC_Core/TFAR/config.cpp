@@ -43,7 +43,7 @@ class CfgWeapons
 		scope = 2;
 		scopeCurator = 2;
 		scopeArsenal=2;
-		model = "";
+		//model = "";
 		picture = "\HC_Core\TFAR\TFAR_Radios\ui\commlink_icon.paa";
 		tf_prototype = 1;
 		tf_range = 5000;
