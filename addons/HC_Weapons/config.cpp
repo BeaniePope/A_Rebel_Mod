@@ -347,7 +347,7 @@ class CfgMagazines
 		displayName= "RT97C Mag";
 		ammo="HC_556_ammo";
 		count=150;
-       	mass=50;
+       	mass=40;
 		initspeed=756;
 		tracersEvery=1;
 		lastRoundsTracer=75;
