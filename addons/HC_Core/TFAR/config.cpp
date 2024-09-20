@@ -21,13 +21,7 @@ class CfgPatches
         {};
     };
 };
-class Extended_PreInit_EventHandlers
-{
-	class tfar_handhelds
-	{
-		init="call compile preprocessFileLineNumbers '\z\tfar\addons\handhelds\XEH_preInit.sqf'";
-	};
-};
+
 ///TFAR Definitions
 #include "TFAR_Radios\uiDefines.hpp"
 #include "TFAR_Radios\ui\hclr.hpp"
