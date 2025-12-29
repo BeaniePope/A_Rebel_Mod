@@ -1,0 +1,32 @@
+ItemInfo - addons/core/config.cpp:83:8
+ItemInfo - addons/equipment/config.cpp:67:8
+ACE_HuntIR_M203JMSLLTE_CommandosStrip_armor -  - addons/weapons/config.cppaddons/equipment/config.cpp::251133::88
+
+ACE_40mm_Flare_ir - addons/weapons/config.cpp:JMSLLTE_ScumTroopHeavy_wood_F_CombatUniform252 - :addons/equipment/config.cpp8:
+394:ACE_40mm_Flare_red8 - 
+addons/weapons/config.cpp:JMSLLTE_ScumTroopHeavy_brown_F_CombatUniform253 - addons/equipment/config.cpp::8395
+:ACE_40mm_Flare_green8 - 
+addons/weapons/config.cppJMSLLTE_ScumTroopHeavy_desert_F_CombatUniformItemInfo: -  - 254addons/equipment/config.cppaddons/imperials/HC_Stormtroopers/config.cpp:::839654
+::ACE_40mm_Flare_white811 - 
+
+addons/weapons/config.cppHiddenFlipJMSLLTE_ScumCommando_cloud_F_CombatUniform: -  - 255addons/core/TFAR/TFAR_Radios/uiDefines.hppaddons/equipment/config.cpp:::87398
+::1Rnd_SmokeYellow_Grenade_shell78 - 
+
+addons/weapons/config.cpprscButtonJMSLLTE_ScumCommando_woodD_F_CombatUniform: -  - 256addons/core/TFAR/TFAR_Radios/uiDefines.hppaddons/equipment/config.cpp:::88399:
+:71Rnd_Smoke_Grenade_shell8
+ - 
+rscRotatoraddons/weapons/config.cppJMSLLTE_ScumCommando_desertS_F_CombatUniform - : - addons/core/TFAR/TFAR_Radios/uiDefines.hpp257addons/equipment/config.cpp:::98400:
+:71Rnd_SmokeRed_Grenade_shell8
+ - 
+addons/weapons/config.cppTFAR_anprc152JMSLLTE_ScumCommando_green_F_CombatUniform: -  - 258addons/core/TFAR/config.cppaddons/equipment/config.cpp:::831
+401::81Rnd_SmokePurple_Grenade_shell8
+ - 
+addons/weapons/config.cpp:259:8
+JMSLLTE_ScumAlCommando_cloud_F_CombatUniform - 1Rnd_SmokeOrange_Grenade_shelladdons/equipment/config.cpp - :addons/weapons/config.cpp404::2608:
+8
+JMSLLTE_ScumAlCommando_desert_F_CombatUniform - addons/equipment/config.cpp1Rnd_SmokeGreen_Grenade_shell: - 405addons/weapons/config.cpp::8261
+:8JMSLLTE_ScumAlCommando_base_F_CombatUniform
+ - addons/equipment/config.cpp1Rnd_SmokeBlue_Grenade_shell: - 406addons/weapons/config.cpp::8262
+:8
+JMSLLTE_back_rebpack_v1_black - addons/equipment/config.cpp:571:8
+JMSLLTE_back_rebpack_v1_wood - addons/equipment/config.cpp:572:8

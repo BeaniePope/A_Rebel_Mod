@@ -1,0 +1,7 @@
+name = "Horizon Company Auxiliary Mod"
+prefix = "HCA"
+[version]
+major = 1 # Overrides path when set
+minor = 0
+patch = 4
+build = 3 # Optional
