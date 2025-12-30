@@ -6,7 +6,7 @@ class CfgPatches
         author = "Queen";
         requiredAddons[] = 
         {
-
+            
         };
         weapons[] =
         {
@@ -30,14 +30,10 @@ class CfgPatches
 
 #include "includes.hpp"
 
-class cfgWeapons
-{
-
-};
 class CfgVehicles
 {
-    class JMSLLTE_Emp_Army_Trooper;
-    class HCA_Unit_Imperial_Army_Base: JMSLLTE_Emp_Army_Trooper
+    class B_MTF_Uniform1;
+    class HCA_Unit_Imperial_Army_Base: B_MTF_Uniform1
     {
         author = "Queen";
         scope = 0;
@@ -53,7 +49,7 @@ class CfgVehicles
         scope = 2;
         displayName = "[HCA] Army Trooper (Light)";
         uniformClass = "U_MTF_Uniform1";
-         linkeditems[] = 
+        linkeditems[] = 
         {
             "ls_imperialVest_army",
             "G_Bandanna_blk",
@@ -94,6 +90,7 @@ class CfgVehicles
     {
         scope = 2;
         displayName = "[HCA] Army Trooper";
+        uniformClass = "U_MTF_Uniform1";
         linkeditems[] = 
         {
             "ls_imperialVest_army",
@@ -135,6 +132,7 @@ class CfgVehicles
     {
         scope = 2;
         displayName = "[HCA] Army Trooper (MG)";
+        uniformClass = "U_MTF_Uniform1";
         backpack = "JMSLLTE_back_crystal_v1";
         linkeditems[] = 
         {
@@ -177,6 +175,7 @@ class CfgVehicles
     {
         scope = 2;
         displayName = "[HCA] Imperial Army (AT)";
+        uniformClass = "U_MTF_Uniform1";
         backpack = "JMSLLTE_back_crystal_v1";
         linkeditems[] = 
         {
@@ -274,7 +273,7 @@ class CfgVehicles
         {
             "ls_imperialVest_army",
             "G_Bandanna_blk",
-            "WM_Basic_armor",
+            "",
             "JMSLLTE_EmpTrooper_black_helmet",
             "FirstAidKit",
             "Medikit",
@@ -286,7 +285,7 @@ class CfgVehicles
         {
             "ls_imperialVest_army",
             "G_Bandanna_blk",
-            "WM_Basic_armor",
+            "",
             "JMSLLTE_EmpTrooper_black_helmet",
             "FirstAidKit",
             "Medikit",

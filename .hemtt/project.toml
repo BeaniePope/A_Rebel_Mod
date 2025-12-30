@@ -1,5 +1,5 @@
 name = "Horizon Company Auxiliary Mod"
-prefix = "HCA"
+prefix = "hca"
 [version]
 major = 1 # Overrides path when set
 minor = 0

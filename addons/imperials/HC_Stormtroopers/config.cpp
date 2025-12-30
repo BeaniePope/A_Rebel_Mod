@@ -87,8 +87,8 @@ class CfgWeapons
 };
 class CfgVehicles
 {
-    class JMSLLTE_emp_storm_trooper;
-    class HCA_Unit_Imperial_ST_Base: JMSLLTE_emp_storm_trooper
+    class QSS_Stormtrooper;
+    class HCA_Unit_Imperial_ST_Base: QSS_Stormtrooper
     {
         author="greg";
         scope = 0;
