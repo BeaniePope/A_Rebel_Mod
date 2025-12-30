@@ -238,7 +238,7 @@ class CfgVehicles
         author = "Queen";
         scope = 2;
         displayName = "[HCA] Stormtrooper (Medic)";
-        backpack = "3AS_B_Imperial_Stormtrooper_Backpack_F";
+        backpack = "3AS_B_Imperial_Stormtrooper_Backpack_Medic_F";
         uniformClass = "QSS_StormArmor_Crown2_Medic";
         linkeditems[] = 
         {

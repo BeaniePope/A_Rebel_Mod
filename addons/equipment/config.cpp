@@ -780,7 +780,7 @@ class CfgVehicles
 			"\HCA_Equipment\data\uniforms\Trooper_Navy\NavyPurple.paa"
 		};
 	};
-	class HCA_Unit_Navy_Zues: JMSLLTE_ScumNavy_blue_F
+	class HCA_Unit_Navy_Zeus: JMSLLTE_ScumNavy_blue_F
 	{
 		author="Possum";
 		scope=1;

@@ -226,7 +226,7 @@ class CfgVehicles
         uniformClass = "U_MTF_Uniform1";
         linkeditems[] = 
         {
-            "ls_imperialVest_army",
+            "ls_imperialVest_medic",
             "G_Bandanna_blk",
             "ls_imperialHelmet_army",
             "FirstAidKit",
@@ -237,7 +237,7 @@ class CfgVehicles
         };
         respawnLinkeditems[] = 
         {
-            "ls_imperialVest_army",
+            "ls_imperialVest_medic",
             "G_Bandanna_blk",
             "ls_imperialHelmet_army",
             "FirstAidKit",
