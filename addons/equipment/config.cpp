@@ -391,9 +391,7 @@ class CfgWeapons
 		};
 	};
 	
-	class JMSLLTE_ScumTroopHeavy_wood_F_CombatUniform; //Raincoats
-	class JMSLLTE_ScumTroopHeavy_brown_F_CombatUniform;
-	class JMSLLTE_ScumTroopHeavy_desert_F_CombatUniform;
+	
 
 	class JMSLLTE_ScumCommando_cloud_F_CombatUniform; //"Suit" light 
 	class JMSLLTE_ScumCommando_woodD_F_CombatUniform;
@@ -407,6 +405,36 @@ class CfgWeapons
 	class JMSLLTE_ScumAlCommando_wood_F_CombatUniform;
 
 	class JMSLLTE_ScumNavy_blue_F_CombatUniform; //navy suit
+
+	class JMSLLTE_ScumTroopHeavy_wood_F_CombatUniform; //Raincoats
+	class JMSLLTE_ScumTroopHeavy_brown_F_CombatUniform;
+	class JMSLLTE_ScumTroopHeavy_desert_F_CombatUniform;
+
+	class JMSLLTE_ScumPart_bl_F_CombatUniform; //Jumpsuit
+	class JMSLLTE_ScumPart_br_F_CombatUniform;
+	class JMSLLTE_ScumPart_gr_F_CombatUniform;
+	class JMSLLTE_ScumPart_yel_F_CombatUniform;
+
+	class JMSLLTE_ScumPathfinder_blue_F_CombatUniform; // Heavy Gear
+	class JMSLLTE_ScumPathfinder_brown_F_CombatUniform;
+	class JMSLLTE_ScumPathfinder_sand_F_CombatUniform;
+	class JMSLLTE_ScumPathfinder_wood_F_CombatUniform;
+
+	class ls_uniform_pathfinder;
+	class ls_uniform_pathfinder_brown;
+	class ls_uniform_pathfinder_brown_r;
+	class ls_uniform_pathfinder_navy_alt;
+	class ls_uniform_pathfinder_navy_alt_r;
+	class ls_uniform_pathfinder_navy;
+	class ls_uniform_pathfinder_navy_r;
+	class ls_uniform_pathfinder_r;
+
+	class ls_uniform_spacer;
+	class ls_uniform_spacer_alt;
+	class ls_uniform_spacer_brown_alt;
+	class ls_uniform_spacer_brown;
+
+
 	//Uniforms
 	class UniformItem;
 	//Commando Suit

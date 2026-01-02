@@ -1,28 +1,119 @@
-2025-12-30T17:32:23.885012Z TRACE ThreadId(01) version: 1.18.0
-2025-12-30T17:32:23.885094Z TRACE ThreadId(01) platform: windows
-2025-12-30T17:32:23.885103Z TRACE ThreadId(01) args: [
+2025-12-30T17:33:14.075025Z TRACE ThreadId(01) version: 1.18.0
+2025-12-30T17:33:14.075110Z TRACE ThreadId(01) platform: windows
+2025-12-30T17:33:14.075124Z TRACE ThreadId(01) args: [
     "C:\\Users\\Swift\\AppData\\Local\\Microsoft\\WinGet\\Links\\hemtt.exe",
     "check",
 ]
-2025-12-30T17:32:23.887820Z TRACE ThreadId(01) using temporary folder: "C:\\Users\\Swift\\AppData\\Local\\Temp\\hemtt\\GitHub_A_Rebel_Mod"
-2025-12-30T17:32:23.887838Z TRACE ThreadId(01) using project folder: "E:\\GitHub\\A_Rebel_Mod"
-2025-12-30T17:32:23.887866Z TRACE ThreadId(01) using out folder: "E:\\GitHub\\A_Rebel_Mod\\.hemttout"
-2025-12-30T17:32:23.907348Z TRACE ThreadId(01) using build folder: "E:\\GitHub\\A_Rebel_Mod\\.hemttout\\check"
-2025-12-30T17:32:23.948627Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/imperials/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\Swift\\AppData\\Local\\Temp\\hemtt\\GitHub_A_Rebel_Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHub\\A_Rebel_Mod" } } } } } }] } } }
-2025-12-30T17:32:23.950336Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/imperials/HC_Stormtroopers/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\Swift\\AppData\\Local\\Temp\\hemtt\\GitHub_A_Rebel_Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHub\\A_Rebel_Mod" } } } } } }] } } }
-2025-12-30T17:32:23.950462Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/imperials/HC_Army/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\Swift\\AppData\\Local\\Temp\\hemtt\\GitHub_A_Rebel_Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHub\\A_Rebel_Mod" } } } } } }] } } }
-2025-12-30T17:32:23.950551Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/equipment/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\Swift\\AppData\\Local\\Temp\\hemtt\\GitHub_A_Rebel_Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHub\\A_Rebel_Mod" } } } } } }] } } }
-2025-12-30T17:32:23.950607Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/equipment/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\Swift\\AppData\\Local\\Temp\\hemtt\\GitHub_A_Rebel_Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHub\\A_Rebel_Mod" } } } } } }] } } }
-2025-12-30T17:32:23.958678Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/core/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\Swift\\AppData\\Local\\Temp\\hemtt\\GitHub_A_Rebel_Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHub\\A_Rebel_Mod" } } } } } }] } } }
-2025-12-30T17:32:23.958775Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/core/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\Swift\\AppData\\Local\\Temp\\hemtt\\GitHub_A_Rebel_Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHub\\A_Rebel_Mod" } } } } } }] } } }
-2025-12-30T17:32:23.960261Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/core/TFAR/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\Swift\\AppData\\Local\\Temp\\hemtt\\GitHub_A_Rebel_Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHub\\A_Rebel_Mod" } } } } } }] } } }
-2025-12-30T17:32:23.961172Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/functions/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\Swift\\AppData\\Local\\Temp\\hemtt\\GitHub_A_Rebel_Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHub\\A_Rebel_Mod" } } } } } }] } } }
-2025-12-30T17:32:23.961392Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/weapons/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\Swift\\AppData\\Local\\Temp\\hemtt\\GitHub_A_Rebel_Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHub\\A_Rebel_Mod" } } } } } }] } } }
-2025-12-30T17:32:23.961422Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/weapons/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\Swift\\AppData\\Local\\Temp\\hemtt\\GitHub_A_Rebel_Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHub\\A_Rebel_Mod" } } } } } }] } } }
-2025-12-30T17:32:23.962755Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/vehicles/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\Swift\\AppData\\Local\\Temp\\hemtt\\GitHub_A_Rebel_Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHub\\A_Rebel_Mod" } } } } } }] } } }
-2025-12-30T17:32:23.963933Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/vehicles/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\Swift\\AppData\\Local\\Temp\\hemtt\\GitHub_A_Rebel_Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHub\\A_Rebel_Mod" } } } } } }] } } }
-2025-12-30T17:32:23.964105Z TRACE ThreadId(01) reading version from project.toml
-2025-12-30T17:32:23.974829Z  INFO ThreadId(01) Config loaded for Horizon Company Auxiliary Mod 1.0.4.3-e91daece
-2025-12-30T17:32:23.974896Z TRACE ThreadId(01) Scanning E:\GitHub\A_Rebel_Mod\addons for addons
-2025-12-30T17:32:23.975627Z ERROR ThreadId(01) Failed to execute command:
-Workspace Error: Addon error: Addon prefix not found: functions
+2025-12-30T17:33:14.075431Z TRACE ThreadId(01) using temporary folder: "C:\\Users\\Swift\\AppData\\Local\\Temp\\hemtt\\GitHub_A_Rebel_Mod"
+2025-12-30T17:33:14.075448Z TRACE ThreadId(01) using project folder: "E:\\GitHub\\A_Rebel_Mod"
+2025-12-30T17:33:14.075474Z TRACE ThreadId(01) using out folder: "E:\\GitHub\\A_Rebel_Mod\\.hemttout"
+2025-12-30T17:33:14.094960Z TRACE ThreadId(01) using build folder: "E:\\GitHub\\A_Rebel_Mod\\.hemttout\\check"
+2025-12-30T17:33:14.116958Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/imperials/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\Swift\\AppData\\Local\\Temp\\hemtt\\GitHub_A_Rebel_Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHub\\A_Rebel_Mod" } } } } } }] } } }
+2025-12-30T17:33:14.117434Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/imperials/HC_Stormtroopers/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\Swift\\AppData\\Local\\Temp\\hemtt\\GitHub_A_Rebel_Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHub\\A_Rebel_Mod" } } } } } }] } } }
+2025-12-30T17:33:14.117619Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/imperials/HC_Army/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\Swift\\AppData\\Local\\Temp\\hemtt\\GitHub_A_Rebel_Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHub\\A_Rebel_Mod" } } } } } }] } } }
+2025-12-30T17:33:14.117745Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/equipment/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\Swift\\AppData\\Local\\Temp\\hemtt\\GitHub_A_Rebel_Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHub\\A_Rebel_Mod" } } } } } }] } } }
+2025-12-30T17:33:14.117979Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/equipment/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\Swift\\AppData\\Local\\Temp\\hemtt\\GitHub_A_Rebel_Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHub\\A_Rebel_Mod" } } } } } }] } } }
+2025-12-30T17:33:14.119733Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/weapons/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\Swift\\AppData\\Local\\Temp\\hemtt\\GitHub_A_Rebel_Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHub\\A_Rebel_Mod" } } } } } }] } } }
+2025-12-30T17:33:14.120002Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/weapons/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\Swift\\AppData\\Local\\Temp\\hemtt\\GitHub_A_Rebel_Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHub\\A_Rebel_Mod" } } } } } }] } } }
+2025-12-30T17:33:14.120137Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/functions/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\Swift\\AppData\\Local\\Temp\\hemtt\\GitHub_A_Rebel_Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHub\\A_Rebel_Mod" } } } } } }] } } }
+2025-12-30T17:33:14.120202Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/functions/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\Swift\\AppData\\Local\\Temp\\hemtt\\GitHub_A_Rebel_Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHub\\A_Rebel_Mod" } } } } } }] } } }
+2025-12-30T17:33:14.120703Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/vehicles/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\Swift\\AppData\\Local\\Temp\\hemtt\\GitHub_A_Rebel_Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHub\\A_Rebel_Mod" } } } } } }] } } }
+2025-12-30T17:33:14.120862Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/vehicles/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\Swift\\AppData\\Local\\Temp\\hemtt\\GitHub_A_Rebel_Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHub\\A_Rebel_Mod" } } } } } }] } } }
+2025-12-30T17:33:14.121092Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/core/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\Swift\\AppData\\Local\\Temp\\hemtt\\GitHub_A_Rebel_Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHub\\A_Rebel_Mod" } } } } } }] } } }
+2025-12-30T17:33:14.121124Z TRACE ThreadId(01) Prefix: VfsPath { path: "/addons/core/$PBOPREFIX$", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\Swift\\AppData\\Local\\Temp\\hemtt\\GitHub_A_Rebel_Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHub\\A_Rebel_Mod" } } } } } }] } } }
+2025-12-30T17:33:14.121314Z TRACE ThreadId(01) config.cpp: VfsPath { path: "/addons/core/TFAR/config.cpp", fs: VFS { fs: OverlayFS { layers: [VfsPath { path: "", fs: VFS { fs: In Memory File System } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "C:\\Users\\Swift\\AppData\\Local\\Temp\\hemtt\\GitHub_A_Rebel_Mod\\hemtt_binarize_output" } } } } } }, VfsPath { path: "", fs: VFS { fs: AltrootFS { root: VfsPath { path: "", fs: VFS { fs: PhysicalFS { root: "E:\\GitHub\\A_Rebel_Mod" } } } } } }] } } }
+2025-12-30T17:33:14.122234Z TRACE ThreadId(01) reading version from project.toml
+2025-12-30T17:33:14.127340Z  INFO ThreadId(01) Config loaded for Horizon Company Auxiliary Mod 1.0.4.3-a8b454f7
+2025-12-30T17:33:14.127402Z TRACE ThreadId(01) Scanning E:\GitHub\A_Rebel_Mod\addons for addons
+2025-12-30T17:33:14.129238Z DEBUG ThreadId(01) using global config directory: "C:\\Users\\Swift\\AppData\\Roaming\\hemtt"
+2025-12-30T17:33:14.129377Z  INFO ThreadId(01) Running checks
+2025-12-30T17:33:14.129400Z TRACE ThreadId(01) phase: init (BOM Check) (start)
+2025-12-30T17:33:14.129408Z TRACE ThreadId(01) phase: init (BOM Check) (done)
+2025-12-30T17:33:14.129410Z TRACE ThreadId(01) phase: init (Final New Line Check) (start)
+2025-12-30T17:33:14.129412Z TRACE ThreadId(01) phase: init (Final New Line Check) (done)
+2025-12-30T17:33:14.129414Z TRACE ThreadId(01) phase: init (Hooks) (start)
+2025-12-30T17:33:14.129440Z TRACE ThreadId(01) no hooks folder
+2025-12-30T17:33:14.129442Z TRACE ThreadId(01) phase: init (Hooks) (done)
+2025-12-30T17:33:14.129444Z TRACE ThreadId(01) phase: init (Binarize) (start)
+2025-12-30T17:33:14.129448Z TRACE ThreadId(01) phase: init (Binarize) (done)
+2025-12-30T17:33:14.129450Z TRACE ThreadId(01) phase: init (Rapifier) (start)
+2025-12-30T17:33:14.129451Z TRACE ThreadId(01) phase: init (Rapifier) (done)
+2025-12-30T17:33:14.129453Z TRACE ThreadId(01) phase: init (SQF) (start)
+2025-12-30T17:33:14.134337Z TRACE ThreadId(01) failed to load arma 3 wiki from git: Failed to clone repository: 'C:\Users\Swift\AppData\Local\acemod\arma3-wiki\data' exists and is not an empty directory; class=Invalid (3); code=Exists (-4) e="Failed to clone repository: 'C:\\Users\\Swift\\AppData\\Local\\acemod\\arma3-wiki\\data' exists and is not an empty directory; class=Invalid (3); code=Exists (-4)"
+2025-12-30T17:33:14.134447Z  WARN ThreadId(01) Failed to load Arma 3 wiki from git, falling back to bundled version
+2025-12-30T17:33:14.209117Z TRACE ThreadId(01) phase: init (SQF) (done)
+2025-12-30T17:33:14.209138Z TRACE ThreadId(01) phase: init (Stringtables) (start)
+2025-12-30T17:33:14.209141Z TRACE ThreadId(01) phase: init (Stringtables) (done)
+2025-12-30T17:33:14.209143Z TRACE ThreadId(01) phase: check (BOM Check) (start)
+2025-12-30T17:33:14.281013Z TRACE ThreadId(01) phase: check (BOM Check) (done)
+2025-12-30T17:33:14.281033Z TRACE ThreadId(01) phase: check (Final New Line Check) (start)
+2025-12-30T17:33:14.281801Z TRACE ThreadId(01) phase: check (Final New Line Check) (done)
+2025-12-30T17:33:14.281809Z TRACE ThreadId(01) phase: check (Hooks) (start)
+2025-12-30T17:33:14.281811Z TRACE ThreadId(01) phase: check (Hooks) (done)
+2025-12-30T17:33:14.281813Z TRACE ThreadId(01) phase: check (Binarize) (start)
+2025-12-30T17:33:14.288081Z  INFO ThreadId(01) Validated 0 files for binarization
+2025-12-30T17:33:14.288099Z TRACE ThreadId(01) phase: check (Binarize) (done)
+2025-12-30T17:33:14.288102Z TRACE ThreadId(01) phase: check (Rapifier) (start)
+2025-12-30T17:33:14.288155Z TRACE ThreadId(01) phase: check (Rapifier) (done)
+2025-12-30T17:33:14.288157Z TRACE ThreadId(01) phase: check (SQF) (start)
+2025-12-30T17:33:14.288213Z TRACE ThreadId(01) phase: check (SQF) (done)
+2025-12-30T17:33:14.288215Z TRACE ThreadId(01) phase: check (Stringtables) (start)
+2025-12-30T17:33:14.288241Z TRACE ThreadId(01) phase: check (Stringtables) (done)
+2025-12-30T17:33:14.288244Z TRACE ThreadId(01) phase: pre_build (BOM Check) (start)
+2025-12-30T17:33:14.288246Z TRACE ThreadId(01) phase: pre_build (BOM Check) (done)
+2025-12-30T17:33:14.288248Z TRACE ThreadId(01) phase: pre_build (Final New Line Check) (start)
+2025-12-30T17:33:14.288250Z TRACE ThreadId(01) phase: pre_build (Final New Line Check) (done)
+2025-12-30T17:33:14.288255Z TRACE ThreadId(01) phase: pre_build (Hooks) (start)
+2025-12-30T17:33:14.288260Z TRACE ThreadId(01) phase: pre_build (Hooks) (done)
+2025-12-30T17:33:14.288262Z TRACE ThreadId(01) phase: pre_build (Binarize) (start)
+2025-12-30T17:33:14.288266Z TRACE ThreadId(01) phase: pre_build (Binarize) (done)
+2025-12-30T17:33:14.288267Z TRACE ThreadId(01) phase: pre_build (Rapifier) (start)
+2025-12-30T17:33:14.455651Z  INFO ThreadId(01) Rapified 9 addon configs
+2025-12-30T17:33:14.455719Z TRACE ThreadId(01) phase: pre_build (Rapifier) (done)
+2025-12-30T17:33:14.455724Z TRACE ThreadId(01) phase: pre_build (SQF) (start)
+2025-12-30T17:33:14.462796Z TRACE ThreadId(04) sqf compiling /addons/functions/arsenal/initStormtrooperArsenalModule.sqf
+2025-12-30T17:33:14.462794Z TRACE ThreadId(03) sqf compiling /addons/functions/arsenal/fn_initArsenal.sqf
+2025-12-30T17:33:14.488165Z TRACE ThreadId(04) wiki has syntax with [unknown] type
+2025-12-30T17:33:14.493870Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-30T17:33:14.494272Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-30T17:33:14.494279Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-30T17:33:14.494281Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-30T17:33:14.494283Z TRACE ThreadId(03) wiki has syntax with [unknown] type
+2025-12-30T17:33:14.499064Z  INFO ThreadId(01) Compiled 2 sqf files
+2025-12-30T17:33:14.499116Z TRACE ThreadId(01) phase: pre_build (SQF) (done)
+2025-12-30T17:33:14.499119Z TRACE ThreadId(01) phase: pre_build (Stringtables) (start)
+2025-12-30T17:33:14.503188Z  INFO ThreadId(01) Checked 0 stringtables
+2025-12-30T17:33:14.503214Z TRACE ThreadId(01) phase: pre_build (Stringtables) (done)
+2025-12-30T17:33:14.514118Z TRACE ThreadId(01) writing ci annotations to .hemttout/ci_annotations.txt
+2025-12-30T17:33:14.514733Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-12-30T17:33:14.514746Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-12-30T17:33:14.514749Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-12-30T17:33:14.514750Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-12-30T17:33:14.514752Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-12-30T17:33:14.514753Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-12-30T17:33:14.514755Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-12-30T17:33:14.514756Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-12-30T17:33:14.514757Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-12-30T17:33:14.514759Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-12-30T17:33:14.514760Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-12-30T17:33:14.514762Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-12-30T17:33:14.514763Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-12-30T17:33:14.514765Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-12-30T17:33:14.514766Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-12-30T17:33:14.514768Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-12-30T17:33:14.514769Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-12-30T17:33:14.514770Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-12-30T17:33:14.514772Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-12-30T17:33:14.514773Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-12-30T17:33:14.514775Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-12-30T17:33:14.514776Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-12-30T17:33:14.514778Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-12-30T17:33:14.514779Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-12-30T17:33:14.514785Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-12-30T17:33:14.514789Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-12-30T17:33:14.514799Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-12-30T17:33:14.514802Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-12-30T17:33:14.514804Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-12-30T17:33:14.514806Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-12-30T17:33:14.514808Z TRACE ThreadId(01) Code L-C14 does not have a diagnostic, skipping
+2025-12-30T17:33:14.514811Z TRACE ThreadId(01) wrote 13 ci annotations to .hemttout/ci_annotations.txt
